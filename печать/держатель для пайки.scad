@@ -21,7 +21,7 @@ hx=4.5;
 //list1();
 //test();
 //test1();
-test_net();
+//test_net();
 //test_un1();
 
 module list1(){
@@ -63,6 +63,7 @@ module net1(){
     translate([-(z5r_net.y/4),fp.z-hz/2-ts,hz/2])cube([ts,hz,hz],true);
     //translate([-(z5r_net.y/2+ts/2),fp.z-hz/2-hz/2,hz/2])cube([hz,ts,hz],true);   
 }
+//form();
 module form(){
     
     difference(){
@@ -111,6 +112,28 @@ module test(){
         translate([0,0,-2*ts])ug();
     }
 }
+//test00();
+
+module test00(){
+    rotate([0,90,0])translate([-stl.x/2,0,0]){rotate([0,0,180])difference(){
+            translate([0,0,(ugol.x+5*ts)/2])cube([ stl.x,ugol.y+2*ts, ugol.x+5*ts],true);
+            translate([0,0,0])ug();
+        }
+        translate([-1*stl.x/2,0,ts/2])cube([ stl.x*2, pole.y, ts],true);
+    }
+}
+
+test01();
+module test01(){
+    rotate([0,90,0])translate([-stl.x/2,0,0]){difference(){
+            translate([0,0,(ugol.x+5*ts)/2])cube([ stl.x,ugol.y+2*ts, ugol.x+5*ts],true);
+            translate([0,0,0])ug();
+        }
+        translate([-1*stl.x/2,0,ts/2])cube([ stl.x*2, pole.y, ts],true);
+    }
+}
+
+
 
 module test_un(){
     translate([ugol.y/2+ts/2,stl.x/2+ugol.x+4*ts,stl.x/2])cube([ ts,stl.x, stl.x],true);
