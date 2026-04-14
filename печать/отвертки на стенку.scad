@@ -3,13 +3,13 @@ ts=1.5;
 
 kv=9.95;//размер ячейкм
 dd=18;//растояние между ячейками
-tst=1.8+ts;//толщина стенки = сетки
+tst=1.8;//толщина стенки = сетки
 dot=3;//for sanorez
 hn=4;//h nogi
 dno=kv*1.7;//d fix
 
-dotv=3;
-lot=10;
+dotv=6;
+lot=15;
 step=20;
 coun=7;
 
@@ -18,7 +18,7 @@ dv=kv*0.9;
 
 all();
 
-//fix();
+
 module fix(){
     difference(){
         union(){
@@ -38,11 +38,11 @@ module fix(){
 }
 
 module all(){
-    difference(){
+    //difference(){
         line();
-        translate([-step/2-ts*3,0,kv])rotate([0,-90,0])minus();
-    }
-
+    //    translate([-step/2-ts*3,0,kv])rotate([0,-90,0])minus();
+    //}
+    translate([-step+2*ts+ts/2,0,ts+dk/2])rotate([0,-90,0])fix();
 }    
     
     
@@ -56,11 +56,12 @@ module line(){
     difference(){
         union(){
             translate([coun*step/2-step/4,0,ts/2])cube([ coun*step+step+step/4,dk+3*ts, ts],true);
-            translate([0,(dk+3*ts)/2-ts/2,(dd+kv)/2])cube([ step*2-step/4,ts, (dd+kv)],true);
+            translate([0,(dk+3*ts)/2-ts/2,(dd+kv/2)/2])cube([ step*2-step/4,ts, (dd+kv/2)],true);
+            translate([0,-((dk+3*ts)/2-ts/2),(dd+kv/2)/2])cube([ step*2-step/4,ts, (dd+kv/2)],true);
             translate([-step+2*ts,0,(dd*2+kv*1)/2])cube([ ts,dk+3*ts, (dd*2+kv*1)],true);
             translate([coun*step/2,0,lot/2])cube([ coun*step,ts, lot],true);
             for (as=[0:1:coun]){
-                translate([as*step,0,0])cylinder(lot, dotv, dotv);
+                translate([as*step,0,0])cylinder(lot, dotv/2+ts, dotv/2+ts);
             }
         }
         for (as=[0:1:coun]){
