@@ -73,7 +73,7 @@ module pin2(){
 module pin1(){
     translate([0,0,lin.z])rotate([0,180,0])pin();
 }
-
+//pin();
 module pin(){
     difference(){
         union(){
@@ -82,9 +82,20 @@ module pin(){
         }
         translate([0,0,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
         translate([0,-(trb.x/2+trb.y),-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+        translate([0, 0,trb.z+lin.z+trb.x/4]) rotate([-45,0,0])cube([trb.x*2,trb.x*2,trb.x/2],true);
     }
 }
-
+module pin_s(){
+    difference(){
+        union(){
+            cylinder(trb.z+lin.z-trb.x/2,trb.x/2,trb.x/2);
+            translate([0, 0,trb.z+lin.z-trb.x/2])sphere(r=trb.x/2);
+            translate([0, trb.x/2-lin.y/2,lin.z/2]) cube(lin,true);
+        }
+        translate([0,0,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+        translate([0,-(trb.x/2+trb.y),-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+    }
+}
 
 
 

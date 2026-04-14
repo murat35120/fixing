@@ -14,6 +14,8 @@ fp=[stk.x-0.2,stk.y-0.4,50];//форма прижимной пласитны
 hz=10;
 hx=4.5;
 
+//test01();
+test00();
 
 
 //all();
@@ -123,7 +125,7 @@ module test00(){
     }
 }
 
-test01();
+
 module test01(){
     rotate([0,90,0])translate([-stl.x/2,0,0]){difference(){
             translate([0,0,(ugol.x+5*ts)/2])cube([ stl.x,ugol.y+2*ts, ugol.x+5*ts],true);
@@ -132,7 +134,6 @@ module test01(){
         translate([-1*stl.x/2,0,ts/2])cube([ stl.x*2, pole.y, ts],true);
     }
 }
-
 
 
 module test_un(){
