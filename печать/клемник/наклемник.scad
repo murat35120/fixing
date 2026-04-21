@@ -11,7 +11,7 @@ knt=[12,7.8, 7.5];//высота до центра, толщина, высота
 lin=[3.5,knt.x+trb.x,1.5];//ширина, длина, толщина
 
 step=5;
-kk=3;
+kk=9;
 
 //translate([0, 0,lin.z+knt.y/2]) cube([ts,step,knt.y],true);
 
