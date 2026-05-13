@@ -11,7 +11,7 @@ fp=[stk.x-0.2,stk.y-0.4,50];//форма прижимной пласитны
 
 hz=10;
 hx=4.5;
-
+dlh=10;
 
 //translate([fp.z,0,0])test00(); //опоры уголка
 //translate([fp.z+stl.y+4*ts,0,0])test00(); //опоры уголка
@@ -31,7 +31,7 @@ module form(){
     
     difference(){
         translate([0,fp.z/2,fp.x/2])cube([pole.y-3*ts-0.5,fp.z,fp.x],true);
-        translate([0,stl.z/2-0.1,0])cube([pole.y-fp.y*2-3*ts,stl.z,fp.x*3],true);
+        //translate([0,stl.z/2-0.1,0])cube([pole.y-fp.y*2-3*ts,stl.z,fp.x*3],true);
     }
 }
 
@@ -46,16 +46,19 @@ module test00(){
 }
 
 z5rl();
+translate([0,-pole.y,0])z5rR();
 module z5rl(){
     z5=[26,1,2.5];
     translate([ugol.y/2+ts/2,stl.x/2+ugol.x+4*ts,stl.x/2])cube([ ts,stl.x, stl.x],true);
     translate([-(ugol.y/2+ts/2),stl.x/2+ugol.x+4*ts,stl.x/2])cube([ ts,stl.x, stl.x],true);
-    translate([z5.x/2+ts/2,fp.z-hz/2-hz/2,hz/2])cube([8+ts,ts,hz],true);
-    translate([z5.x/2+ts/2,fp.z-hz/2-hz/2,hz/2])cube([ts,hz,hz],true);
-    translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2+z5.y,hz/2])cube([8+ts,ts,hz],true);
-    translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2,hz/2])cube([ts,hz,hz],true);
+    translate([0,dlh,0]){
+        translate([z5.x/2+ts/2,fp.z-hz/2-hz/2,(hz-ts)/2])cube([8+ts,ts,hz/2+ts],true);
+        translate([z5.x/2+ts/2,fp.z-hz/2-hz/2,(hz-ts)/2])cube([ts,hz,hz/2+ts],true);
+        translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2+z5.y,(hz-ts)/2])cube([8+ts,ts,hz/2+ts],true);
+        translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2,(hz-ts)/2])cube([ts,hz,hz/2+ts],true);
+    }
     difference(){
-        form();
+        translate([0,dlh,0])form();
         translate([0,(ugol.x+4*ts-ts+0.5)/2-0.1,0])cube([pole.y+fp.y*2,ugol.x+4*ts-ts+0.5,fp.x*3],true);
        // translate([0,fp.z-hz/2,hz])cube([z5.x-8,hz*2,hz*4],true);
     }
@@ -69,12 +72,14 @@ module z5rR(){
     z5=[26,1,2.5];
     translate([ugol.y/2+ts/2,stl.x/2+ugol.x+4*ts,stl.x/2])cube([ ts,stl.x, stl.x],true);
     translate([-(ugol.y/2+ts/2),stl.x/2+ugol.x+4*ts,stl.x/2])cube([ ts,stl.x, stl.x],true);
-    translate([z5.x/2+ts/2,fp.z-hz/2-hz/2+z5.z,hz/2])cube([8+ts,ts,hz],true);
-    translate([z5.x/2+ts/2,fp.z-hz/2-hz/2,hz/2])cube([ts,hz,hz],true);
-    translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2,hz/2])cube([8+ts,ts,hz],true);
-    translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2,hz/2])cube([ts,hz,hz],true);
+        translate([0,dlh,0]){
+            translate([z5.x/2+ts/2,fp.z-hz/2-hz/2+z5.z,(hz-ts)/2])cube([8+ts,ts,hz/2+ts],true);
+            translate([z5.x/2+ts/2,fp.z-hz/2-hz/2,(hz-ts)/2])cube([ts,hz,hz/2+ts],true);
+            translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2,(hz-ts)/2])cube([8+ts,ts,hz/2+ts],true);
+            translate([-(z5.x/2+ts/2),fp.z-hz/2-hz/2,(hz-ts)/2])cube([ts,hz,hz/2+ts],true);
+        }
     difference(){
-        form();
+        translate([0,dlh,0])form();
         translate([0,(ugol.x+4*ts-ts+0.5)/2-0.1,0])cube([pole.y+fp.y*2,ugol.x+4*ts-ts+0.5,fp.x*3],true);
     }
     translate([0,0,stl.x])rotate([180,0,-90])translate([-ts*2,0,stl.x/2])rotate([0,-90,0])difference(){
