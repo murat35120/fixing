@@ -11,7 +11,7 @@ from=0;
 
 
 
-//ersh_n();
+translate([-20,0,0])ersh_n();
 module ersh_n(){
    // dd=6;
     translate([0,-li/2,0]){

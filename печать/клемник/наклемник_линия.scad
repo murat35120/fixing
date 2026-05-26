@@ -9,30 +9,10 @@ tpr=1.7;//диаметр провода
 trb=[2,tp,2.5];//внешний, внутренний высота
 knt=[12,7.8, 7.5];//высота до центра, толщина, высота стопора
 lin=[3.5,knt.x+trb.x,1.5];//ширина, длина, толщина
+shp=4.5;
 do=3.8;
 step=5;
 kk=2;
-
-//translate([0, 0,lin.z+knt.y/2]) cube([ts,step,knt.y],true);
-
-//all();
-module all(){
-    difference(){
-        union(){
-            translate([-step/2+step*kk/2, trb.x/2-lin.y/2,ts+knt.y]) cube([step*kk,lin.y,ts],true);
-            translate([-step/2+step*kk/2, -ts/2-knt.x,(2*ts+knt.y)/2]) cube([step*kk,ts,ts+knt.y],true);
-            //translate([-step/2+step*kk/2, -ts/2-knt.z,ts+knt.y-knt.y/6]) cube([step*kk,ts,ts+knt.y/3],true);
-            translate([-step/2+step*kk/2, -lin.y/2-knt.x,ts/2]) cube([step*kk,lin.y,ts],true);
-            for(a=[0:1:kk-1]){
-                translate([a*step, 0,0])pin();
-            }
-        }
-        for(a=[0:1:kk-1]){
-            translate([a*step, -(knt.x+3*ts/2),0])cylinder(trb.z*2,trb.y/2,trb.y/2);
-        }
-    }
-}
-
 
 all_2();
 module all_2(){
@@ -59,7 +39,7 @@ module all_2(){
 
 module ship(){
     intersection(){
-        rotate([-90,0,0])cylinder(6,do/2,do/2);
+        rotate([-90,0,0])cylinder(shp,do/2,do/2);
         cube([ts,do*4,8],true);
     }
 }
@@ -75,13 +55,14 @@ module pin3(){
 
 
 module pin2(){
-    translate([-lin.z,knt.x,step/2])rotate([0,90,0])pin();
+    //translate([-lin.z,knt.x,step/2])rotate([0,90,0])pin();
+    translate([-lin.z,knt.x,step/2])rotate([0,90,0])pin_lin();
 }
 
 module pin1(){
     translate([0,0,lin.z])rotate([0,180,0])pin();
 }
-//pin();
+//pin_lin();
 module pin(){
     difference(){
         union(){
@@ -91,6 +72,18 @@ module pin(){
         translate([0,0,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
         translate([0,-(trb.x/2+trb.y),-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
         translate([0, 0,trb.z+lin.z+trb.x/4]) rotate([-45,0,0])cube([trb.x*2,trb.x*2,trb.x/2],true);
+    }
+}
+module pin_lin(){
+    difference(){
+        union(){
+            //cylinder(trb.z+lin.z,trb.x/2,trb.x/2);
+            translate([0, 0,(trb.z+lin.z)/2]) cube([lin.x,ts+0.5,trb.z+lin.z],true);
+            translate([0, trb.x/2-lin.y/2,lin.z/2]) cube(lin,true);
+        }
+        translate([0,0,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+        translate([0,-(trb.x/2+trb.y),-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+        translate([0, 0,trb.z+lin.z+trb.x/4]) rotate([-45,0,0])cube([trb.x*2,trb.x*3,trb.x/2],true);
     }
 }
 module pin_s(){
