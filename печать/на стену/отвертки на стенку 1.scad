@@ -9,7 +9,7 @@ dot=3;//for sanorez
 hn=4;//h nogi
 dno=kv*1.7;//d fix
 
-mot=30; //длина стоек от стены
+mot=15; //длина стоек от стены
 smr=3;//диаметр самореза
 dsm=10;//длина под саморез
 
@@ -22,12 +22,26 @@ dk=kv*1.7;
 dv=kv*0.9;
 
 
+smart=[74,12,10];
+
+sm();
+translate([0,smart.x,0])nv();//новый фикстатор
+
+module sm(){
+    difference(){
+        translate([(dd+kv),0,0])difference(){
+            translate([0,0,(smart.y+2*ts)/2])cube([ (dd+kv)*2+kv*2+10,smart.x+2*ts, smart.y+2*ts],true);
+            translate([ts+0.1,0,(smart.y+2*ts)/2])cube([ (dd+kv)*2+kv*2+10,smart.x, smart.y],true);
+            translate([ts+0.1,0,(smart.y+2*ts)/2+2*ts])cube([ (dd+kv)*2+kv*2+10,smart.x-smart.z, smart.y+4*ts],true);
+            translate([ts+0.1,0,(smart.y+2*ts)/2+2*ts])cube([ (dd+kv)*2+kv*2+4*ts+10,smart.x/2, smart.y+4*ts],true);
+        }
+        translate([-kv+ts+smr/2,0,-0.1])rotate([0,0,0])cylinder(ts+0.2, smr/2, smr/2+ts);
+        translate([(dd+kv)*2+kv-ts-smr/2,0,-0.1])rotate([0,0,0])cylinder(ts+0.2, smr/2, smr/2+ts);
+}
+}
 
 
 
-
-
-//nv();//новый фикстатор
 
 module nv(){
     difference(){
@@ -50,7 +64,7 @@ module nv(){
 
 // ((dd+kv)*2+kv-ts-smr/2)-(-kv+ts+smr/2)
 
-all1();
+//all1();
 
 module all1(){
     difference(){
