@@ -10,26 +10,36 @@ ddd=0.3;
 hk=kat.y/2+2*val+ts*2;
 
 
-//bas();
+
+
+
+bas();
 //translate([0, kat.y,0])fiix();
 //translate([0, -kat.y,0])fiix();
 //translate([kat.y,0,0])
-vall();
+//vall();
 
 module bas(){
-    difference(){
-        kor();
-       minus(); 
-       nitt();
+    intersection(){
+        difference(){
+            kor();
+           minus(); 
+           nitt();
+        }
+        translate([-kat.y/2,0,0])rotate([0,90,0])cylinder(kat.y, kat.y*2/3, kat.y*2/3);
     }
 }
 
 //kor();
 module kor(){
-    translate([0,0,ts/2])cube([kat.z*4/3, kat.y*4/3, ts],true);
+    minkowski(){
+        translate([0,0,ts/2])cube([kat.z+ts*3-val*2, kat.y+ts+val*2, ts],true);
+        cylinder(0.01, val, val);
+    }
     translate([(ts+kat.z/2),0,hk/2])cube([ts,kat.y,hk],true);
     translate([-(ts+kat.z/2),0,hk/2])cube([ts,kat.y,hk],true);
     translate([0,kat.y/2,hk/2])cube([(ts+kat.z/2)*2+ts, ts,hk],true);
+    translate([0,-kat.y/2,hk/2])cube([(ts+kat.z/2)*2+ts, ts,hk],true);
 }    
    
      
@@ -46,7 +56,7 @@ module nitt(){
 
 
 module vall(){
-    lval=(ts+kat.z/2)*2-ts-1;
+    lval=(ts+kat.z/2)*2-ts-2;
     translate([0,0,val/2])cube([val,lval,val],true);
     translate([0,lval/2,0])line();
     translate([0,-lval/2,0])line();
