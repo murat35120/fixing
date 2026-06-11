@@ -2,7 +2,7 @@ $fn=50;
 ts=2;
 
 kv=9.95;//размер ячейкм
-kv1=kv-0.5;
+kv1=kv-0.8;
 dd=18;//растояние между ячейками
 tst=1.8;//толщина стенки = сетки
 dot=3;//for sanorez
@@ -24,7 +24,7 @@ dv=kv*0.9;
 
 smart=[74,12,10];
 
-sm();
+//sm();
 translate([0,smart.x,0])nv();//новый фикстатор
 
 module sm(){
@@ -80,7 +80,7 @@ module all1(){
 
 //krk();
 module krk(){
-    translate([0,0,ts/2+ts+tst])cube([ kv1,kv1, ts],true);  
+    translate([-ts/2,0,ts/2+ts+tst])cube([ kv1-ts,kv1, ts],true);  
     translate([-kv1/4,0,(ts+tst)/2])cube([ kv1/2,kv1, ts+tst],true);   
 }
 
