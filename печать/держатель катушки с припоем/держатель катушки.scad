@@ -16,8 +16,7 @@ hk=kat.y/2+2*val+ts*2;
 bas();
 //translate([0, kat.y,0])fiix();
 //translate([0, -kat.y,0])fiix();
-//translate([kat.y,0,0])
-//vall();
+translate([kat.y,0,0]) vall();
 
 module bas(){
     intersection(){
