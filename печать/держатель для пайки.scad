@@ -35,18 +35,18 @@ module form(){
     }
 }
 
-//test00();
+test00();
 module test00(){
     rotate([0,90,0])translate([-stl.x/2,0,0]){rotate([0,0,180])difference(){
-            translate([0,0,(ugol.x+5*ts)/2])cube([ stl.x,ugol.y+2*ts, ugol.x+5*ts],true);
-            translate([0,0,0])ug();
+            translate([0,0,(fp.z+5*ts)/2])cube([ stl.x,ugol.y+2*ts, fp.z+5*ts],true);
+            translate([0,0,(fp.z-5*ts)])ug();
         }
-        translate([0,0,ts/2])cube([ stl.x, pole.y, ts],true);
+        translate([0,0,ts])cube([ stl.x, pole.y, ts*2],true);
     }
 }
 
-z5rl();
-translate([0,-pole.y,0])z5rR();
+//z5rl();
+//translate([0,-pole.y,0])z5rR();
 module z5rl(){
     z5=[26,1,2.5];
     translate([ugol.y/2+ts/2,stl.x/2+ugol.x+4*ts,stl.x/2])cube([ ts,stl.x, stl.x],true);
