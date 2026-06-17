@@ -24,16 +24,13 @@ ft=1.5; //основная толщина фиксатора
 zbf=2.5+ft;//зуб фиксатора
 nfix=10;//нога фиксатора
 
-//fix_pr ();
-module fix_pr (){
-    //translate([ft/2,(ph3[8][1]+fxw+fdoz)/2-fttz-fxw,f_sh/2])cube([ft, ph3[8][1]+fxw+fdoz,f_sh],true);
-    //translate([(fog)/2,-ts/2-2,f_sh/2])cube([fog, ts,f_sh],true);
-    translate([-ft/2,nfix/2,f_sh/2])cube([ft, nfix,f_sh],true);
-    translate([0,-14.5,0])linear_extrude(f_sh)polygon([[0,0],[-ft,0],[-zbf,15],[0,14.5]]);//0.5 вынужденная поправка в связи с ошибкой во втором слое
-}
 
 
-//disk_z();
+
+translate([20,0,0]) disk_z();
+ersh();
+
+
 
 module disk_z(){
     translate([0,dval/2,zv/2+ze])cube([3,tn,zv],true);
@@ -45,7 +42,7 @@ module disk_z(){
 }
 
 
-ersh();
+
 
 module ersh(){
     ddd=6;

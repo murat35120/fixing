@@ -10,7 +10,7 @@ hn=4;//h nogi
 dno=kv*1.7;//d fix
 
 mot=15; //длина стоек от стены
-smr=3;//диаметр самореза
+smr=4;//диаметр самореза
 dsm=10;//длина под саморез
 
 dotv=4.5;
@@ -22,7 +22,7 @@ dk=kv*1.7;
 dv=kv*0.9;
 
 
-smart=[74,12,10];
+smart=[81,18,10];
 
 //sm();
 translate([0,smart.x,0])nv();//новый фикстатор
@@ -80,7 +80,11 @@ module all1(){
 
 //krk();
 module krk(){
+//<<<<<<< HEAD:печать/на стену/сканер на стену.scad
+ //   translate([-0.5,0,ts/2+ts+tst])cube([ kv1-1,kv1, ts],true);  
+//=======
     translate([-ts/2,0,ts/2+ts+tst])cube([ kv1-ts,kv1, ts],true);  
+//>>>>>>> d7a5d0b1ab140e07409fe96ef682cbb375299ea8:печать/на стену/отвертки на стенку 1.scad
     translate([-kv1/4,0,(ts+tst)/2])cube([ kv1/2,kv1, ts+tst],true);   
 }
 
