@@ -1,7 +1,7 @@
 $fn=50;
 ts=1.5;
 
-kat=[18, 60, 40+ts*2];//размер ячейкм
+kat=[18, 65, 57+ts*2];//размер ячейкм
 val=4;
 nit=1;
 fix=8;
@@ -14,8 +14,8 @@ hk=kat.y/2+2*val+ts*2;
 
 
 bas();
-//translate([0, kat.y,0])fiix();
-//translate([0, -kat.y,0])fiix();
+translate([0, kat.y,0])fiix();
+translate([0, -kat.y,0])fiix();
 translate([kat.y,0,0]) vall();
 
 module bas(){
@@ -75,9 +75,9 @@ module fiix(){
             difference(){
                 union(){
                     cylinder(ts, kat.x/2+fix, kat.x/2+fix);
-                    cylinder(fix+ts, kat.x/2+ts, kat.x/2+ts);
+                    cylinder(fix+ts, kat.x/2, kat.x/2);
                 }
-                translate([0,0,ts])cylinder(fix+ts, kat.x/2, kat.x/2);
+                translate([0,0,ts])cylinder(fix+ts, kat.x/2-ts, kat.x/2-ts);
             }
             translate([0,0,(fix+ts)/2])cube([  val+2*ts, val+2*ts, fix+ts],true);
         }
