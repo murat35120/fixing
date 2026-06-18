@@ -14,11 +14,11 @@ hx=4.5;
 dlh=10;
 hh=100;
 
-net=
-//test01();
-//translate([0,pole.y+ts*3,0])test00();
 
-translate([0,0,ts/2])cube(pole,true);
+test01();
+translate([0,pole.y+ts*3,0])test00();
+
+//translate([0,0,ts/2])cube(pole,true);
 
 module test00(){
     rotate([0,90,0])translate([-stl.x/2,0,0]){

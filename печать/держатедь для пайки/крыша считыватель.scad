@@ -29,6 +29,8 @@ module all(){
             translate([-pole.x/2,0,3*ts/2])cube([3*ts,pole.y, 3*ts],true);
             translate([plt/2-pin.x-pin.x/2-step/2+0.1,-(-step+ts/2),4*ts/2])cube([step, ts,4*ts],true);
             translate([plt/2-pin.x-pin.x/2-step/2+0.1,-step*3,4*ts/2])cube([step, ts,4*ts],true);
+            translate([plt/2-pin.x-pin.x/2-step*3,-step*3,4*ts/2])cube([step, ts,4*ts],true);
+            translate([plt/2-pin.x-pin.x/2-step*3,2.5*step,4*ts/2])cube([step, ts,4*ts],true);
         }
         translate([pole.x/2,0,3*ts/2])cube([stl.x*2+ts,ts+0.6, 4*ts],true);
         translate([-pole.x/2,0,3*ts/2])cube([stl.x*2+ts,ts+0.6, 4*ts],true);
