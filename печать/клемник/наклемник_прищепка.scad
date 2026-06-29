@@ -6,11 +6,11 @@ tpr=1.7;//диаметр провода
 trb=[2,tp,2.5];//внешний, внутренний высота
 knt=[20,11, 7.5, 7.8];//высота до центра, толщина, высота стопора
 lin=[3.5,knt.x+trb.x,1.3];//ширина, длина, толщина
-dkn=3.5;//длина контактной площадки
+dkn=2.5;//длина контактной площадки
 shp=4.0;//высота шипа
 do=3.8;
 step=5;//шаг контактов
-kk=3;//количество контактов
+kk=4;//количество контактов
 //прищепка
 prk=[8,10,1.5,24,10];//диаметр опоры, ширина,диаметр проволоки, длина плеча,высота половины
 
@@ -37,6 +37,13 @@ module alll(){
             }
         }
         translate([prk[3]-ts,0,knt[3]+ts*3/2])cube([ts,prk.y*2,ts*3],true);
+        translate([-prk[3]*2+prk[3]-ts/2,0,0]){
+            translate([0,step+0.1,tpr/2+prk[4]/3])cube([prk[3]*4,tpr,tpr],true);
+            translate([0,step+0.1,tpr/2+2*prk[4]/3])cube([prk[3]*4,tpr,tpr],true);
+            translate([0,-step+0.1,tpr/2+prk[4]/3])cube([prk[3]*4,tpr,tpr],true);
+            translate([0,-step+0.1,tpr/2+2*prk[4]/3])cube([prk[3]*4,tpr,tpr],true);
+        }
+        
     }
 }
 
@@ -110,7 +117,7 @@ module pin2(){
 module pin1(){
     translate([0,0,lin.z])rotate([0,180,0])pin();
 }
-//pin_lin();
+
 module pin(){
     difference(){
         union(){
@@ -128,11 +135,12 @@ module pin_lin(){
     difference(){
         union(){
             //cylinder(trb.z+lin.z,trb.x/2,trb.x/2);
-            translate([0, -trb.z/2,(trb.z+lin.z)/2]) cube([lin.x,dkn,trb.z+lin.z],true);
+            translate([0, -trb.z/2+trb.y,(trb.z+lin.z)/2]) cube([lin.x,dkn,trb.z+lin.z],true);
             translate([0, trb.x/2-lin.y/2-0.5,lin.z/2]) cube(lin,true);
         }
-        translate([0,-0.25,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
-        translate([0,-trb.z+0.25,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+        //translate([0,-0.25,-0.1])cylinder(trb.z*2,trb.y/2,trb.y/2);
+        translate([0,-0.25,trb.z-0.1])cube([trb.y,trb.y,trb.z*2],true);
+        translate([0,-trb.z+0.25,trb.z-0.1])cube([trb.y,trb.y,trb.z*2],true);
         translate([0, 0,trb.z+lin.z+trb.x/4]) rotate([-45,0,0])cube([trb.x*2,trb.x*3,trb.x/2],true);
     }
 }
