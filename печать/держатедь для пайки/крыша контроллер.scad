@@ -17,6 +17,7 @@ plt=42;
 pin=[9, 5*9+1.5, 12];
 botr=8;
 prk=[20,15,pin.z*2];
+rs485=31;
 
 all();
 module all(){
@@ -26,6 +27,9 @@ module all(){
             translate([plt/2-pin.x,0,ts+botr/2])cube([pin.x+ts,pin.y+ts,botr],true);
             translate([pole.x/2,0,3*ts/2])cube([3*ts,pole.y, 3*ts],true);
             translate([-pole.x/2,0,3*ts/2])cube([3*ts,pole.y, 3*ts],true);
+            translate([plt/2-pin.x-rs485+pin.x/2+ts,0,ts+botr/2])cube([ts,botr,botr+ts*2],true);
+            translate([plt/2-pin.x-rs485+pin.x/2+ts,-pole.y/2+3*ts,ts+botr/2])cube([botr,ts,botr+ts*2],true);
+            translate([plt/2-pin.x-rs485+pin.x/2+ts,-(-pole.y/2+1*ts),ts+botr/2])cube([botr,ts,botr+ts*2],true);
         }
         translate([pole.x/2,0,3*ts/2])cube([stl.x*2+ts,ts+0.6, 4*ts],true);
         translate([-pole.x/2,0,3*ts/2])cube([stl.x*2+ts,ts+0.6, 4*ts],true);
@@ -33,6 +37,9 @@ module all(){
         translate([-pole.x/2,0,ts-0.1])cube([ts+0.6,pole.y+ts, ts*2],true);
         translate([plt/2-pin.x,0,ts+pin.z/2])cube(pin,true);
         translate([plt/2-pin.x,-2.5*5,0])cube(prk,true);
+        translate([plt/2-pin.x-rs485,3.5*5,0])cube(prk,true);
+        translate([plt/2-pin.x-rs485,2*5,0])cube(prk,true);
+        
     }
 }
 

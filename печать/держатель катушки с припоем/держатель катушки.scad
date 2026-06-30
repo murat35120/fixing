@@ -1,7 +1,7 @@
 $fn=50;
 ts=1.5;
 
-kat=[18, 65, 57+ts*2];//размер ячейкм
+kat=[18.5, 60, 29+ts*2];//размер ячейкм
 val=4;
 nit=1;
 fix=8;
@@ -14,9 +14,9 @@ hk=kat.y/2+2*val+ts*2;
 
 
 bas();
-translate([0, kat.y,0])fiix();
-translate([0, -kat.y,0])fiix();
-translate([kat.y,0,0]) vall();
+//translate([0, kat.y+2*ts,0])fiix();
+//translate([0, -kat.y-2*ts,0])fiix();
+//translate([kat.y,0,0]) vall();
 
 module bas(){
     intersection(){

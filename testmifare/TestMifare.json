@@ -1,0 +1,23 @@
+﻿{
+	"info": {
+		"name": "TestMifare",
+		"version": "1"
+	},
+	"main": {
+		"formPos": [
+			104,
+			104,
+			500,
+			400
+		],
+		"allPorts": false,
+		"port": "COM3",
+		"block": 1,
+		"authKey": "ffffffffffff",
+		"useReaderKeys": false,
+		"keyB": false
+	},
+	"log": {
+		"logLevel": 0
+	}
+}
