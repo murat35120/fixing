@@ -1,0 +1,10 @@
+[STEND]
+Number=4
+
+[PARAM]
+Name=Matrix IV Keys
+Count=20
+Date=28.12.2018 12:45:12
+
+[Lic]
+Txt=?H;F=:[3M*V.2@TU%6[SV__51+P/2I7R,1_5NAA>_8YJ0M6'F2RI-+`!`

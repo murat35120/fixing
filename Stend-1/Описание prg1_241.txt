@@ -1,0 +1,55 @@
+List test modules for Stend-1 S/N:41
+ [01] -> SA-03    %5d  
+  Not found valid record
+ [02] -> M-II-Net %5d    
+  Not found valid record
+ [03] ->M6-EH-Net %5d    
+  Not found valid record
+ [04] -> Z-5R Net %5d    
+  Current S/N = 1000
+  Minimum S/N = 1000
+  Maximum S/N = 1029
+  Pool prog   = 30
+  Ok   prog   = 0
+  Bad  prog   = 4
+ [05] -> Z5R 8000 %5d    
+  Current S/N = 55003
+  Minimum S/N = 55000
+  Maximum S/N = 55009
+  Pool prog   = 7
+  Ok   prog   = 3
+  Bad  prog   = 0
+ [06] -> Z-5R Ext %5d    
+  Not found valid record
+ [07] ->Z5R 16000 %5d    
+  Not found valid record
+ [08] ->CPZ2-EHK (%05d)
+  Not found valid record
+ [09] ->Мx-3 MF-I(%05d)
+  Not found valid record
+ [10] ->М-II MF-I(%05d)
+  Current S/N = 0
+  Minimum S/N = 1
+  Maximum S/N = 65535
+  Pool prog   = 16
+  Ok   prog   = 4
+  Bad  prog   = 9
+ [11] -> Matrix V %5d  
+  Not found valid record
+ [12] ->M-4 Keys (%05d)
+  Not found valid record
+ [13] ->M-3-COM  (%05d)
+  Not found valid record
+ [14] ->HCS-301  (%05d)
+  Not found valid record
+ [15] ->Z-5R Wg R(%05d)
+  Not found valid record
+ [16] ->RDR-GSM  (%05d)
+  Not found valid record
+ [17] ->Мx-3 NFC (%05d)
+  Not found valid record
+ [18] ->М-II NFC (%05d)
+  Not found valid record
+ [19] ->CPZ3 NFC (%05d)
+  Not found valid record
+End

@@ -1,0 +1,13 @@
+[STEND]
+Number=31
+
+[PARAM]
+Name=Z595 iB
+Count=1000
+CurNum=10000
+MinNum=10000
+MaxNum=10999
+Date=09.10.2017 15:11:50
+
+[Lic]
+Txt=?3.P%1_6:JD94M)46R=K<QX'A()B:5$OKUM2J4P+Y3]U%Q3&0`OE/W0";

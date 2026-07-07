@@ -1,0 +1,13 @@
+[STEND]
+Number=44
+
+[PARAM]
+Name=EU Z-5R Net 8k
+Count=1000
+CurNum=22151
+MinNum=22151
+MaxNum=23150
+Date=02.04.2018 14:27:27
+
+[Lic]
+Txt=?W/0U!_$]-<_W<K>C]12%16EW]K(F=[B+IL%UQR@]4_=Z!/E9*#U3]P`W

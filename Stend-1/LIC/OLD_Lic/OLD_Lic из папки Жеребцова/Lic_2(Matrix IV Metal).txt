@@ -1,0 +1,13 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=Matrix IV Metal
+Count=10
+CurNum=1161
+MinNum=1000
+MaxNum=1260
+Date=16.08.2017 10:19:18
+
+[Lic]
+Txt=?CL./,12A6BIT>7CU,L<-O1$0A%S0H'5=E<[0+=G/EAL$=@JM@1Q#I``#

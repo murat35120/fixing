@@ -1,0 +1,14 @@
+
+tst1_105
+
+
+[01] -> Matrix-II    
+ [02] -> Matrix-IIEH   
+ [03] -> Matrix-IIIEH    
+ [04] ->PR-105
+ [05] ->CP-Z 2L
+ [06] -> ZR-5(M-II-K+)  
+ [07] ->Z-5000
+ [08] ->Z-5R
+ [09] ->Z-5R Relay
+ [10] ->Проверка TIMER

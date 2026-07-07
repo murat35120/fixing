@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II Net
+Count=3000
+CurNum=33701
+MinNum=33200
+MaxNum=36700
+Date=04.12.2015 16:59:18
+
+[Lic]
+Txt=?F<GLP?-&L:G<P-5*Q9D-6+%\/1ZG92`,S$87?[K:2@6,-U#5F^Q'\0`N

@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix IV Keys
+Count=1000
+Date=10.09.2020 14:15:52
+
+[Lic]
+Txt=?@V*5$KRG>BWJR1Y+&>(1O0*R903J!UD)WWNPGK)F6%T>D:.`*>%^4@!0

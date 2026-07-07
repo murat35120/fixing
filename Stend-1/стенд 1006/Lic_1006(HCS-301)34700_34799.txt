@@ -1,0 +1,13 @@
+[STEND]
+Number=1006
+
+[PARAM]
+Name=HCS-301
+Count=100
+CurNum=34700
+MinNum=34700
+MaxNum=34799
+Date=12.05.2025 12:57:46
+
+[Lic]
+Txt=?C#G/#5GX-R5;X?_9R-_"QJP$2IFI6!9@8+&$YC)6B]CWQ-BV,E:+V`"W

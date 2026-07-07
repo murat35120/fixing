@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II MF-I
+Count=2000
+Date=02.09.2019 14:27:39
+
+[Lic]
+Txt=?@T@W/0\*F?ON_AQF)$O\>O>O2GU=CE+*T(O[H*JU:Z5.E:V31M_2/@"_

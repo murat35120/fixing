@@ -1,0 +1,13 @@
+[STEND]
+Number=8
+
+[PARAM]
+Name=Z495_Z496EHT
+Count=2000
+CurNum=8500
+MinNum=8500
+MaxNum=10999
+Date=18.10.2017 15:22:22
+
+[Lic]
+Txt=?VZT^8WQ'E8A/B8_9Y0GT?0=$/G&/*KKV"Q2=QVM')<"TP473:T<EP`#M

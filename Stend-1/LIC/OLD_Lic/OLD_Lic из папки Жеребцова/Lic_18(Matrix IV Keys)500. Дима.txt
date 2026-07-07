@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix IV Keys
+Count=500
+Date=29.10.2019 9:09:30
+
+[Lic]
+Txt=?/IW_\J/CL."K"BF,TYZL?M,UST%MITUM,K/SKO3A._*F*)&^$76;^`!=

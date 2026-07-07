@@ -1,0 +1,13 @@
+[STEND]
+Number=15
+
+[PARAM]
+Name=Matrix II MF
+Count=1100
+CurNum=1300
+MinNum=1000
+MaxNum=65535
+Date=07.08.2013 17:57:12
+
+[Lic]
+Txt=?"/C=J54S">5UDHSQ,HY)&#_?N/6ZO=&T8)(6"5PD.E@M6Q3%*O4.Z@`&

@@ -1,0 +1,13 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix V
+Count=200
+CurNum=1201
+MinNum=1
+MaxNum=65535
+Date=14.08.2012 10:24:09
+
+[Lic]
+Txt=?BFGKH'8EB;?D46[$,R+5.S7BA-YQR$WR,V$N1(&_"/O^6=4EI:H_LP!1

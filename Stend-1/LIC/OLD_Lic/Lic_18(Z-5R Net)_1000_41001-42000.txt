@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Z-5R Net
+Count=1000
+CurNum=41001
+MinNum=40001
+MaxNum=42000
+Date=06.02.2015 18:03:55
+
+[Lic]
+Txt=?":"\@=B$,]X=!%6OZR$M+JW6<7C=\:RR_JY.=7,':@[W(5%6-U3>P`#;

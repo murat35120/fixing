@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Z-5R Net
+Count=1000
+CurNum=45001
+MinNum=45001
+MaxNum=46000
+Date=08.11.2018 13:43:46
+
+[Lic]
+Txt=?8V*Y^1F./B!X<`^&)M8.JTB!^7-O=W/.">!PD03H3\KDY-X_!.A/R@`C

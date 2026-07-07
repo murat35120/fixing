@@ -1,0 +1,15 @@
+tst1 ver 1.06
+
+
+
+
+ [01] ->   Matrix II    
+ [02] ->   Matrix II EH  
+ [03] ->   Matrix III EH
+ [04] ->   PR-105
+ [05] ->   CP-Z 2L   
+ [06] ->   ZR-5 (M-II-K+) 
+ [07] ->   Z5000 
+ [08] ->   Z-5R
+ [09] ->   Z-5R Relay
+ [10] ->   Проверка TIMER

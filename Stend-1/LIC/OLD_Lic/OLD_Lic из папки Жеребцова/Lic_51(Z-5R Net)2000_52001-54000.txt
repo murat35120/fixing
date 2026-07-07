@@ -1,0 +1,13 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=Z-5R Net
+Count=2000
+CurNum=52001
+MinNum=52001
+MaxNum=54000
+Date=27.02.2019 16:23:35
+
+[Lic]
+Txt=?6^@3MV[8*\+VM!3!]F\H2E&L5E0L&J1,*-`G7@_*<#8^P*9]#\IP-@##

@@ -1,0 +1,10 @@
+[STEND]
+Number=8
+
+[PARAM]
+Name=lock Z8EH
+Count=800
+Date=10.07.2017 10:51:08
+
+[Lic]
+Txt=?QN*)1V%SK5?H)U]`5QT(W=X:7J/R$>R>3'^_RP@N_H*>$O$39#U\+0"'

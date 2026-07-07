@@ -1,0 +1,10 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=CPZ2-HID
+Count=1000
+Date=28.09.2017 10:11:39
+
+[Lic]
+Txt=?KFU<4JH.N;;0!%J2J0^]/2(,LOFZ.2!/RU#+!P!09>2T_G3M,&44J0"/

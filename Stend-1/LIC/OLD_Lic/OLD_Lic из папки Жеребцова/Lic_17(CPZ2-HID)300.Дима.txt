@@ -1,0 +1,10 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=CPZ2-HID
+Count=300
+Date=09.11.2020 10:54:34
+
+[Lic]
+Txt=?:<$2TSXAA]#>940BO2?64=IR%VD(K<H*D"E$)D(D6\F/Y0ZV3;_@=`",

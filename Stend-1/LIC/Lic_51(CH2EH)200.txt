@@ -1,0 +1,10 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=CH2EH
+Count=200
+Date=12.01.2018 9:40:57
+
+[Lic]
+Txt=?D?"#"9)H$-D4X(E?_FT$6/2DJ0,`4[%:>M(+PNWW1YB7T)!B^Z:E70"0

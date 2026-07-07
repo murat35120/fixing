@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II Net
+Count=1000
+CurNum=8100
+MinNum=1
+MaxNum=65535
+Date=26.09.2012 17:20:30
+
+[Lic]
+Txt=?_EG*$OVIDBW.N"V*+'N0VJE/+HJGT_8)'-4/HS=%C]<^B=QZ)K78]@#2

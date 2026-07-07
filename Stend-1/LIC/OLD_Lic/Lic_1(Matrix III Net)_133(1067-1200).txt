@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix III Net
+Count=133
+CurNum=1067
+MinNum=1067
+MaxNum=1300
+Date=08.04.2013 14:37:24
+
+[Lic]
+Txt=?!R`S9GNY\L_!2L57G)5#.XBVF9]_$!=?3@8P&L5(T6M0)[02Q4C1:P!J

@@ -1,0 +1,10 @@
+[STEND]
+Number=4
+
+[PARAM]
+Name=Matrix II MF-I
+Count=500
+Date=09.02.2021 15:16:54
+
+[Lic]
+Txt=?5[J3THFO6H,Y3>1[V^=4#\Y3H6`!K\;G?YH(.5PP]H:&\Z.FBA3U%`#Q

@@ -1,0 +1,1 @@
+start LPC2364_prog.exe boot_arm.hex

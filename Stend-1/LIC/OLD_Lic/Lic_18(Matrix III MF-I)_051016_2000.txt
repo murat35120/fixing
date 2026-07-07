@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix III MF-I
+Count=2000
+CurNum=12601
+MinNum=12600
+MaxNum=12950
+Date=05.10.2016 17:44:16
+
+[Lic]
+Txt=?4ISNA";2.IH056UP\6PX'0/'[A8[!D%-YUC4>V.(3BXB5Q(#@0*I2P`#

@@ -1,0 +1,13 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Matrix V
+Count=1000
+CurNum=4720
+MinNum=4720
+MaxNum=5719
+Date=29.03.2019 10:02:44
+
+[Lic]
+Txt=?M90]S@U%(T*@X',["$$,L2+^T,$S-UC1W%.CZ.`SN`4//5T8X#.X!0#V

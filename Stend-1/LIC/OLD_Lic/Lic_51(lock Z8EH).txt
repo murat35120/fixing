@@ -1,0 +1,10 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=lock Z8EH
+Count=300
+Date=24.07.2014 17:56:33
+
+[Lic]
+Txt=?@?\W4WI#WL66N&)W`_1I,02;SEMF.I"9)1FK.P+B?O39N&;A!(:=W0#1

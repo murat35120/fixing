@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II Net
+Count=1000
+CurNum=28001
+MinNum=25200
+MaxNum=29000
+Date=13.03.2015 10:23:43
+
+[Lic]
+Txt=?\0P`\'`1,T)"F:'"VAMFLC)9@BO%C3*N>IF/\VNU#:-S3&XE%L0$HP"B

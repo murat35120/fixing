@@ -1,0 +1,13 @@
+[STEND]
+Number=22
+
+[PARAM]
+Name=Matrix III MF
+Count=1000
+CurNum=2000
+MinNum=2000
+MaxNum=65535
+Date=14.02.2014 16:01:07
+
+[Lic]
+Txt=?9&_(!QJQ&B""-(?&8@(3VD.P+DK+?X,<#U?_(+\1@?#+W%_>OQ&!\`!1

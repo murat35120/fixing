@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix III Rd-All
+Count=2000
+CurNum=10901
+MinNum=10901
+MaxNum=12900
+Date=24.10.2017 10:17:59
+
+[Lic]
+Txt=?7T#37E%CN0TTH>JI/W6J@MZF1!!B;AVTUM5-ZA,KPQ-?A4Y.$RO#$P`!

@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II MF-I
+Count=1000
+Date=18.09.2018 15:45:23
+
+[Lic]
+Txt=?"M2B>V-B`-:0L(O^ERUU52\KDBD3-VM\KG",QR/^733*O\G2HP+PW``)

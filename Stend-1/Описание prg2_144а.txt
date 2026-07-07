@@ -1,0 +1,49 @@
+?
+
+List test modules for Stend-1 S/N:41
+ [01] ->CPZ2-M   (%05d)
+  Not found valid record
+ [02] ->CPZ2-MFI (%05d)
+  Not found valid record
+ [03] ->CPZ2-EH  (%05d)
+  Not found valid record
+ [04] ->CPZ2-EHK (%05d)
+  Not found valid record
+ [05] -> M-3-Net  %5d  
+  Not found valid record
+ [06] -> RePRG M-3-Net     
+ [07] -> M2-EK WF %5d    
+  Not found valid record
+ [08] ->M6-EHK WF %5d    
+  Not found valid record
+ [09] -> Z5R WF   %5d    
+  Not found valid record
+ [10] ->M2-EH Web %5d    
+  Not found valid record
+ [11] ->M6-EH Web %5d    
+  Not found valid record
+ [12] ->Z5R Web_m %5d    
+  Not found valid record
+ [13] ->   CH2EH (%05d)
+  Not found valid record
+ [14] -> M-4-RF   %5d  
+  Current S/N = 1000
+  Minimum S/N = 1000
+  Maximum S/N = 1009
+  Pool prog   = 10
+  Ok   prog   = 0
+  Bad  prog   = 5
+ [15] -> M-4-RFNR %5d  
+  Current S/N = 1000
+  Minimum S/N = 1000
+  Maximum S/N = 1009
+  Pool prog   = 10
+  Ok   prog   = 0
+  Bad  prog   = 5
+ [16] ->M3 Rd-All(%05d)
+  Not found valid record
+ [17] ->Z-5R Web  %5d    
+  Not found valid record
+ [18] ->Z-5R WBT  %5d    
+  Not found valid record
+End

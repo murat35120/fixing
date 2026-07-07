@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Z-5R Web
+Count=500
+CurNum=40701
+MinNum=40700
+MaxNum=41200
+Date=26.08.2015 15:22:51
+
+[Lic]
+Txt=?3P7DX+TLF""WDKF//V/:R(9%^0.70"K!R?)T!?28;]02UF3.L/I*^@!_

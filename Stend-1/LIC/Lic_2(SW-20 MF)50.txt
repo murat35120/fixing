@@ -1,0 +1,10 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=SW-20 MF
+Count=50
+Date=20.03.2018 9:06:19
+
+[Lic]
+Txt=?"(W2#\I%-2INPKJJ4EIYWC@4KF_`#\*30(^:-0$(*N_.=6@+=_G+*``?

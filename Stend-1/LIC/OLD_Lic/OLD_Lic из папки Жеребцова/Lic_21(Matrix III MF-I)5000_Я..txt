@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF-I
+Count=5000
+Date=26.03.2020 10:49:29
+
+[Lic]
+Txt=?[0C17@%P>>K5OXRO=Q5$9(_G$EIY%4KI2H6M`:A,=KB[(Y)?Z]!S`P`&

@@ -1,0 +1,13 @@
+[STEND]
+Number=10002
+
+[PARAM]
+Name=RDR-202M
+Count=1500
+CurNum=24000
+MinNum=24000
+MaxNum=25499
+Date=19.06.2017 14:05:07
+
+[Lic]
+Txt=?C,U3["-79=FQFB]&H#".6O(#13_5!2<'Z:6ADETB8Y"NMEQX72)CD`#;

@@ -1,0 +1,10 @@
+[STEND]
+Number=23
+
+[PARAM]
+Name=Z395_Z396EHT
+Count=100
+Date=15.09.2014 9:38:21
+
+[Lic]
+Txt=?M\^"V_/B"O0CD:(R=)T6?ZPUVHQ^Q_0/(C<V@>HT.U[%5UF+,OTD+@!)

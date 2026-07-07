@@ -1,0 +1,13 @@
+[STEND]
+Number=1006
+
+[PARAM]
+Name=Z-5R Net
+Count=20
+CurNum=38620
+MinNum=38620
+MaxNum=38639
+Date=21.04.2026 11:25:05
+
+[Lic]
+Txt=?LI=2>RE[R;+I(_4=OQ8$*,+4AE%3)W,3\MR%\BZW.6%^FIQH+K<Y80#^

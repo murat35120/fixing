@@ -1,0 +1,13 @@
+[STEND]
+Number=3
+
+[PARAM]
+Name=EUROLOCK
+Count=1000
+CurNum=10000
+MinNum=10000
+MaxNum=10999
+Date=09.10.2017 15:11:37
+
+[Lic]
+Txt=?UPS-4MSPM?YJOP6SZ-RD<@Q.K7F8,G_TMD*WF>!4N%^/$AAGX%2X7P""

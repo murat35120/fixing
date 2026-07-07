@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II Net
+Count=900
+CurNum=10100
+MinNum=10100
+MaxNum=11000
+Date=20.11.2012 9:42:13
+
+[Lic]
+Txt=?3KC_IFH`,]+^A[0=<Q5_)=ZQ[DJIY+-;,`2WQMR`88L$?GP-W(!ABP"@

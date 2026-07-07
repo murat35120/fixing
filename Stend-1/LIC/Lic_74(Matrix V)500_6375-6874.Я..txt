@@ -1,0 +1,13 @@
+[STEND]
+Number=74
+
+[PARAM]
+Name=Matrix V
+Count=500
+CurNum=6375
+MinNum=6375
+MaxNum=6874
+Date=07.04.2020 16:27:21
+
+[Lic]
+Txt=?G*'(,S:+!?H;$=?%6US0!YS@#3@D,3XC_4[]9.<)AXEE-,28YPF'B0#Y

@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF-I
+Count=2000
+Date=28.05.2019 10:28:52
+
+[Lic]
+Txt=?F+P\Y[$D]$ZE"AEB<T0/SD.B0.->(?]$J]T'ES2BWXAO`E>`X`*BGP#M

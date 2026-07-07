@@ -1,0 +1,13 @@
+[STEND]
+Number=70
+
+[PARAM]
+Name=Matrix IV RF
+Count=1000
+CurNum=6500
+MinNum=6500
+MaxNum=7499
+Date=03.04.2019 9:07:14
+
+[Lic]
+Txt=?BW<EKB1&U9M=3Z#OR#H.&YP#Q/YNS':9JUE#8NDZ#H2[!P<%Z3H.A`##

@@ -1,0 +1,13 @@
+[STEND]
+Number=23
+
+[PARAM]
+Name=lock Z7EH
+Count=300
+CurNum=3000
+MinNum=3000
+MaxNum=65535
+Date=29.12.2013 14:53:48
+
+[Lic]
+Txt=??US*4&_L/N3:_==ZE:WL%W#8F_T&F_/N?W@,%"!#I`=L4N+)($.D!P!6

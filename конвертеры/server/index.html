@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Z-397 Guard Protocol Demo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #1a1a2e; color: #eee; padding: 20px; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 { color: #e94560; margin-bottom: 20px; }
+        
+        .status-bar { background: #16213e; padding: 10px 20px; border-radius: 8px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        .status-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; }
+        .status-dot.online { background: #4CAF50; }
+        .status-dot.offline { background: #f44336; }
+        
+        .main-grid { display: grid; grid-template-columns: 350px 1fr; gap: 20px; height: calc(100vh - 280px); }
+        .panel { background: #16213e; border-radius: 8px; padding: 15px; overflow-y: auto; }
+        .panel h2 { color: #e94560; font-size: 16px; margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .panel h3 { color: #4CAF50; font-size: 14px; margin: 10px 0 5px; }
+        
+        .converter-item { background: #1a1a2e; padding: 10px; margin-bottom: 8px; border-radius: 4px; cursor: pointer; border-left: 3px solid #4CAF50; }
+        .converter-item.offline { border-left-color: #f44336; }
+        .converter-item.blocked { border-left-color: #ff9800; }
+        .converter-item:hover { background: #2a2a4e; }
+        .converter-item .ip { font-weight: bold; color: #4CAF50; }
+        .converter-item .status { font-size: 12px; color: #888; }
+        .converter-item .controllers-list { margin-top: 5px; }
+        .controller-btn { background: #0d1b2a; padding: 4px 10px; margin: 2px 4px 2px 0; border-radius: 4px; font-size: 12px; border: 1px solid #2196F3; color: #2196F3; cursor: pointer; display: inline-block; }
+        .controller-btn:hover { background: #1a2a4a; }
+        .controller-btn.active { background: #2196F3; color: white; border-color: #2196F3; }
+        
+        .btn { background: #e94560; color: white; border: none; padding: 5px 12px; border-radius: 4px; cursor: pointer; font-size: 12px; margin: 2px; }
+        .btn:hover { background: #c73652; }
+        .btn.green { background: #4CAF50; }
+        .btn.green:hover { background: #388E3C; }
+        .btn.blue { background: #2196F3; }
+        .btn.blue:hover { background: #1976D2; }
+        .btn.orange { background: #ff9800; }
+        .btn.orange:hover { background: #f57c00; }
+        .btn.small { padding: 2px 8px; font-size: 10px; }
+        
+        .input-group { display: flex; gap: 5px; margin: 5px 0; align-items: center; flex-wrap: wrap; }
+        .input-group input, .input-group select { background: #1a1a2e; color: #eee; border: 1px solid #333; padding: 3px 6px; border-radius: 4px; font-size: 12px; }
+        .input-group label { font-size: 12px; color: #888; }
+        
+        .command-section { margin: 10px 0; padding: 10px; background: #0d1b2a; border-radius: 4px; }
+        .command-section .title { font-size: 13px; color: #4CAF50; font-weight: bold; margin-bottom: 5px; }
+        .flex { display: flex; gap: 10px; flex-wrap: wrap; }
+        .flex-between { display: flex; justify-content: space-between; align-items: center; }
+        
+        .active-controller-info { color: #4CAF50; font-size: 12px; margin: 5px 0; padding: 5px; background: #0d1b2a; border-radius: 4px; }
+        
+        .log-panel { background: #16213e; border-radius: 8px; padding: 15px; margin-top: 20px; }
+        .log-panel h2 { color: #e94560; font-size: 16px; margin-bottom: 10px; }
+        .log-area { height: 150px; background: #0d0d1a; padding: 10px; border-radius: 4px; overflow-y: auto; font-family: monospace; font-size: 11px; }
+        .log-entry { padding: 2px 0; border-bottom: 1px solid #1a1a2e; }
+        .log-entry .time { color: #666; }
+        .log-entry .type-cmd { color: #4CAF50; }
+        .log-entry .type-response { color: #2196F3; }
+        .log-entry .type-info { color: #ff9800; }
+        .log-entry .type-error { color: #f44336; }
+        .log-entry .type-udp { color: #9b59b6; }
+        
+        .log-controls { display: flex; gap: 10px; margin-bottom: 10px; align-items: center; flex-wrap: wrap; }
+        .log-controls .log-status { color: #888; font-size: 12px; }
+        
+        .selected { background: #2a2a4e !important; border-left-color: #e94560 !important; }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #1a1a2e; }
+        ::-webkit-scrollbar-thumb { background: #e94560; border-radius: 3px; }
+        
+        .controller-details { background: #0d1b2a; padding: 10px; border-radius: 4px; margin-top: 5px; font-size: 12px; }
+        .controller-details .field { margin: 2px 0; }
+        .controller-details .label { color: #888; }
+        .controller-details .value { color: #4CAF50; }
+        
+        @media (max-width: 768px) {
+            .main-grid { grid-template-columns: 1fr; height: auto; }
+            .status-bar { flex-direction: column; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Z-397 Guard Protocol Demo</h1>
+        
+        <div class="status-bar">
+            <div>
+                <span class="status-dot online" id="statusDot"></span>
+                <span id="statusText">Подключено</span>
+                <span style="margin-left: 20px; color: #888;">Конвертеров: <span id="converterCount">0</span></span>
+                <span style="margin-left: 20px; color: #888;">Контроллеров: <span id="controllerCount">0</span></span>
+            </div>
+            <div>
+                <button class="btn orange" onclick="clearAll()">🗑 Очистить все</button>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="panel">
+                <h2>📡 Конвертеры</h2>
+                <div id="converterList"></div>
+                
+                <div style="margin-top: 15px;">
+                    <h3>➕ Добавить конвертер</h3>
+                    <div class="input-group">
+                        <input type="text" id="newConverterIP" placeholder="IP адрес" style="width: 120px;">
+                        <button class="btn green" onclick="connectConverter()">Подключить</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>🎮 Управление</h2>
+                <div id="controlPanel">
+                    <p style="color: #888; font-size: 13px;">Выберите конвертер для управления</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="log-panel">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 10px;">
+                <h2>📋 Лог</h2>
+                <div class="log-controls">
+                    <button class="btn" id="logToggleBtn" onclick="toggleLog()">🔊 Выключить лог</button>
+                    <button class="btn small" onclick="clearLog()">🗑 Очистить</button>
+                    <span class="log-status" id="logStatus">Лог: ВКЛ</span>
+                </div>
+            </div>
+            <div class="log-area" id="logArea">
+                <div style="color: #666; text-align: center;">Лог событий</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let ws = null;
+        let selectedConverter = null;
+        let selectedController = null;
+        let logEnabled = true;
+        let controllersData = {};
+
+        function connectWebSocket() {
+            const host = window.location.hostname || 'localhost';
+            ws = new WebSocket('ws://' + host + ':8081');
+            
+            ws.onopen = function() {
+                document.getElementById('statusDot').className = 'status-dot online';
+                document.getElementById('statusText').textContent = 'Подключено';
+            };
+            
+            ws.onclose = function() {
+                document.getElementById('statusDot').className = 'status-dot offline';
+                document.getElementById('statusText').textContent = 'Отключено';
+                setTimeout(connectWebSocket, 3000);
+            };
+            
+            ws.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+                handleMessage(data);
+            };
+        }
+
+        function handleMessage(data) {
+            switch(data.type) {
+                case 'state':
+                    updateConverters(data.converters);
+                    updateControllers(data.controllers);
+                    if (data.logHistory) {
+                        data.logHistory.forEach(function(entry) {
+                            renderLogEntry(entry);
+                        });
+                    }
+                    if (data.logEnabled !== undefined) {
+                        logEnabled = data.logEnabled;
+                        updateLogButton();
+                    }
+                    break;
+
+                case 'converters':
+                    updateConverters(data.data);
+                    break;
+
+                case 'controllers':
+                    updateControllers(data.data);
+                    break;
+
+                case 'converterConnected':
+                    addLog('info', 'Конвертер ' + data.ip + ' подключен');
+                    break;
+
+                case 'converterDisconnected':
+                    addLog('info', 'Конвертер ' + data.ip + ' отключен');
+                    break;
+
+                case 'controllersScanned':
+                    addLog('info', 'Найдены контроллеры на ' + data.ip + ': ' + (data.controllers.length > 0 ? data.controllers.join(', ') : 'нет'));
+                    updateConvertersList();
+                    break;
+
+                case 'controllerInfoResult':
+                    addLog('info', 'Информация о контроллере #' + data.addr + ': ' + data.info.typeName + ' (SN: ' + data.info.serialNumber + ')');
+                    break;
+
+                case 'fullInfoResult':
+                    if (data.data && data.data.data) {
+                        addLog('response', 'Полная информация: ' + data.data.data);
+                    }
+                    break;
+
+                case 'shortInfoResult':
+                    if (data.data && data.data.data) {
+                        addLog('response', 'Краткая информация: ' + data.data.data);
+                    }
+                    break;
+
+                case 'licenseListResult':
+                    if (data.data && data.data.data) {
+                        addLog('response', 'Список лицензий: ' + data.data.data);
+                    }
+                    break;
+
+                case 'doorOpened':
+                    addLog('cmd', 'Дверь открыта на ' + data.ip + ':' + data.addr);
+                    break;
+
+                case 'memoryReadResult':
+                    addLog('response', 'Память прочитана');
+                    break;
+
+                case 'memoryWriteResult':
+                    addLog('cmd', 'Память записана на ' + data.ip + ':' + data.addr);
+                    break;
+
+                case 'converterBlocked':
+                    addLog('info', 'Конвертер ' + data.ip + ' заблокирован');
+                    break;
+
+                case 'converterUnblocked':
+                    addLog('info', 'Конвертер ' + data.ip + ' разблокирован');
+                    break;
+
+                case 'converterRemoved':
+                    addLog('info', 'Конвертер ' + data.ip + ' удален');
+                    break;
+
+                case 'allConvertersCleared':
+                    addLog('info', 'Все конвертеры очищены');
+                    break;
+
+                case 'allControllersCleared':
+                    addLog('info', 'Все контроллеры очищены');
+                    break;
+
+                case 'logToggled':
+                    logEnabled = data.enabled;
+                    updateLogButton();
+                    break;
+
+                case 'activeControllerChanged':
+                    addLog('info', 'Активный контроллер на ' + data.ip + ': #' + data.addr);
+                    selectedController = data.addr;
+                    updateConvertersList();
+                    updateControlPanel();
+                    break;
+
+                case 'command':
+                    if (logEnabled) {
+                        var msg = '📤 ' + data.command;
+                        if (data.sent) {
+                            msg += ' -> ' + data.sent;
+                        }
+                        addLog('cmd', msg);
+                    }
+                    break;
+
+                case 'response':
+                    if (logEnabled) {
+                        var msg = '📥 ' + data.command;
+                        if (data.sent) {
+                            msg += ' | Отправлено: ' + data.sent;
+                        }
+                        if (data.received) {
+                            msg += ' | Получено: ' + data.received;
+                        }
+                        if (data.decoded) {
+                            msg += ' | ' + data.decoded;
+                        }
+                        addLog('response', msg);
+                    }
+                    break;
+
+                case 'log':
+                    renderLogEntry(data.entry);
+                    break;
+
+                case 'error':
+                    addLog('error', data.message);
+                    break;
+
+                default:
+                    console.log('Unknown message type:', data);
+            }
+        }
+
+        function renderLogEntry(entry) {
+            if (!entry) return;
+            var logArea = document.getElementById('logArea');
+            var div = document.createElement('div');
+            div.className = 'log-entry';
+            
+            var time = entry.time || new Date().toLocaleTimeString();
+            var typeClass = 'type-' + (entry.type || 'info');
+            var text = '';
+            
+            if (typeof entry.data === 'string') {
+                text = entry.data;
+            } else if (entry.data && typeof entry.data === 'object') {
+                if (entry.data.name) {
+                    text = '📤 ' + entry.data.name;
+                    if (entry.data.bytes) {
+                        text += ' -> ' + entry.data.bytes;
+                    }
+                } else {
+                    text = JSON.stringify(entry.data);
+                }
+            } else {
+                text = String(entry.data || '');
+            }
+            
+            div.innerHTML = '<span class="time">[' + time + ']</span> <span class="' + typeClass + '">' + text + '</span>';
+            logArea.appendChild(div);
+            logArea.scrollTop = logArea.scrollHeight;
+            
+            if (logArea.children.length > 500) {
+                logArea.removeChild(logArea.children[0]);
+            }
+        }
+
+        function addLog(type, message) {
+            if (!logEnabled) return;
+            var logArea = document.getElementById('logArea');
+            var time = new Date().toLocaleTimeString();
+            var div = document.createElement('div');
+            div.className = 'log-entry';
+            
+            var typeClass = 'type-' + type;
+            div.innerHTML = '<span class="time">[' + time + ']</span> <span class="' + typeClass + '">' + message + '</span>';
+            logArea.appendChild(div);
+            logArea.scrollTop = logArea.scrollHeight;
+            
+            if (logArea.children.length > 500) {
+                logArea.removeChild(logArea.children[0]);
+            }
+        }
+
+        function clearLog() {
+            var logArea = document.getElementById('logArea');
+            logArea.innerHTML = '<div style="color: #666; text-align: center;">Лог очищен</div>';
+        }
+
+        function toggleLog() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(JSON.stringify({ action: 'toggleLog' }));
+            }
+        }
+
+        function updateLogButton() {
+            var btn = document.getElementById('logToggleBtn');
+            var status = document.getElementById('logStatus');
+            if (logEnabled) {
+                btn.textContent = '🔊 Выключить лог';
+                btn.className = 'btn';
+                status.textContent = 'Лог: ВКЛ';
+                status.style.color = '#4CAF50';
+            } else {
+                btn.textContent = '🔇 Включить лог';
+                btn.className = 'btn orange';
+                status.textContent = 'Лог: ВЫКЛ';
+                status.style.color = '#ff9800';
+            }
+        }
+
+        function updateConverters(converters) {
+            var container = document.getElementById('converterList');
+            document.getElementById('converterCount').textContent = converters.length;
+            
+            if (converters.length === 0) {
+                container.innerHTML = '<p style="color: #888; font-size: 13px;">Нет подключенных конвертеров</p>';
+                return;
+            }
+            
+            var html = '';
+            for (var i = 0; i < converters.length; i++) {
+                var c = converters[i];
+                var selectedClass = (selectedConverter === c.ip) ? ' selected' : '';
+                var offlineClass = c.connected ? '' : ' offline';
+                var blockedClass = c.blocked ? ' blocked' : '';
+                var activeController = c.activeController || '';
+                
+                html += '<div class="converter-item' + selectedClass + offlineClass + blockedClass + '" onclick="selectConverter(\'' + c.ip + '\')">';
+                html += '<div class="flex-between">';
+                html += '<div>';
+                html += '<span class="ip">' + c.ip + ':' + c.port + '</span>';
+                html += '<span class="status">' + (c.connected ? '🟢' : '🔴') + ' ' + (c.blocked ? '🚫' : '') + '</span>';
+                html += '</div>';
+                html += '<div>';
+                html += '<button class="btn small blue" onclick="event.stopPropagation(); scanControllers(\'' + c.ip + '\')">🔍</button>';
+                html += '<button class="btn small orange" onclick="event.stopPropagation(); blockConverter(\'' + c.ip + '\')">🚫</button>';
+                html += '<button class="btn small" onclick="event.stopPropagation(); removeConverter(\'' + c.ip + '\')">✕</button>';
+                html += '</div>';
+                html += '</div>';
+                html += '<div class="controllers-list">';
+                if (c.controllers && c.controllers.length > 0) {
+                    html += '<div style="font-size: 11px; color: #666; margin: 3px 0;">Контроллеры:</div>';
+                    for (var j = 0; j < c.controllers.length; j++) {
+                        var addr = c.controllers[j];
+                        var activeClass = (activeController === addr) ? ' active' : '';
+                        html += '<span class="controller-btn' + activeClass + '" onclick="event.stopPropagation(); setActiveController(\'' + c.ip + '\', ' + addr + ')">#' + addr + '</span>';
+                    }
+                } else {
+                    html += '<div style="font-size: 11px; color: #666; margin: 3px 0;">Нет контроллеров</div>';
+                }
+                html += '</div>';
+                if (activeController) {
+                    html += '<div class="active-controller-info">▶ Активный: #' + activeController + '</div>';
+                }
+                html += '</div>';
+            }
+            container.innerHTML = html;
+        }
+
+        function updateConvertersList() {
+            ws.send(JSON.stringify({ action: 'getConverters' }));
+        }
+
+        function updateControllers(controllers) {
+            document.getElementById('controllerCount').textContent = controllers.length;
+            controllersData = {};
+            for (var i = 0; i < controllers.length; i++) {
+                var key = controllers[i].converter_ip + '_' + controllers[i].addr;
+                controllersData[key] = controllers[i];
+            }
+        }
+
+        function selectConverter(ip) {
+            selectedConverter = ip;
+            var conv = getConverter(ip);
+            if (conv && conv.controllers && conv.controllers.length > 0) {
+                selectedController = conv.activeController || conv.controllers[0];
+            } else {
+                selectedController = null;
+            }
+            updateControlPanel();
+            updateConvertersList();
+        }
+
+        function getConverter(ip) {
+            var items = document.querySelectorAll('.converter-item');
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].textContent.indexOf(ip) !== -1) {
+                    return { ip: ip, controllers: [] };
+                }
+            }
+            return null;
+        }
+
+        function setActiveController(ip, addr) {
+            ws.send(JSON.stringify({ action: 'setActiveController', ip: ip, addr: addr }));
+        }
+
+        function updateControlPanel() {
+            if (!selectedConverter) {
+                document.getElementById('controlPanel').innerHTML = '<p style="color: #888; font-size: 13px;">Выберите конвертер для управления</p>';
+                return;
+            }
+            document.getElementById('controlPanel').innerHTML = getControlPanel(selectedConverter);
+        }
+
+        function getControlPanel(ip) {
+            var activeText = selectedController ? 'Активный контроллер: #' + selectedController : 'Нет активного контроллера';
+            return `
+                <div style="margin-bottom: 15px;">
+                    <h3 style="color: #4CAF50;">Конвертер: ${ip}</h3>
+                    <div style="color: #888; font-size: 13px; margin: 5px 0;">${activeText}</div>
+                </div>
+
+                <div class="command-section">
+                    <div class="title">📋 Информация</div>
+                    <div class="flex">
+                        <button class="btn" onclick="sendCommand('fullInfo')">Полная информация</button>
+                        <button class="btn" onclick="sendCommand('shortInfo')">Краткая информация</button>
+                        <button class="btn" onclick="sendCommand('licenseList')">Список лицензий</button>
+                        <button class="btn green" onclick="sendCommand('scanControllers')">🔍 Сканировать контроллеры</button>
+                    </div>
+                </div>
+
+                <div class="command-section">
+                    <div class="title">🚪 Управление дверью</div>
+                    <div class="input-group">
+                        <label>Контроллер:</label>
+                        <input type="number" id="doorAddr" value="${selectedController || 2}" min="2" max="105" style="width: 50px;">
+                        <label>Направление:</label>
+                        <select id="doorDir" style="width: 80px;">
+                            <option value="0">Вход</option>
+                            <option value="1">Выход</option>
+                        </select>
+                        <button class="btn green" onclick="sendCommand('openDoor')">🚪 Открыть</button>
+                    </div>
+                </div>
+
+                <div class="command-section">
+                    <div class="title">💾 Работа с памятью</div>
+                    <div class="input-group">
+                        <label>Контроллер:</label>
+                        <input type="number" id="memAddr" value="${selectedController || 2}" min="2" max="105" style="width: 50px;">
+                        <label>Тип блока:</label>
+                        <select id="memBlockType" style="width: 80px;">
+                            <option value="0xA0">Блок карт</option>
+                            <option value="0xD0">Блок управления</option>
+                        </select>
+                        <label>Номер:</label>
+                        <input type="number" id="memBlockNum" value="0" style="width: 40px;">
+                    </div>
+                    <div class="input-group">
+                        <label>Смещение:</label>
+                        <input type="number" id="memOffset" value="0" style="width: 60px;">
+                        <label>Длина:</label>
+                        <input type="number" id="memLength" value="16" style="width: 60px;">
+                        <button class="btn blue" onclick="sendCommand('readMemory')">📖 Читать</button>
+                        <button class="btn green" onclick="sendCommand('writeMemory')">✏️ Записать</button>
+                    </div>
+                </div>
+
+                <div class="command-section">
+                    <div class="title">⚙️ Управление</div>
+                    <div class="flex">
+                        <button class="btn orange" onclick="sendCommand('blockConverter')">🚫 Блокировать</button>
+                        <button class="btn green" onclick="sendCommand('unblockConverter')">🔓 Разблокировать</button>
+                        <button class="btn" onclick="sendCommand('removeConverter')">🗑 Удалить</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function sendCommand(action) {
+            if (!selectedConverter) {
+                alert('Сначала выберите конвертер');
+                return;
+            }
+
+            var command = { action: action, ip: selectedConverter };
+
+            switch(action) {
+                case 'openDoor':
+                    command.addr = parseInt(document.getElementById('doorAddr').value) || 2;
+                    command.direction = parseInt(document.getElementById('doorDir').value) || 0;
+                    break;
+                case 'readMemory':
+                case 'writeMemory':
+                    command.addr = parseInt(document.getElementById('memAddr').value) || 2;
+                    command.blockType = parseInt(document.getElementById('memBlockType').value) || 0xA0;
+                    command.blockNum = parseInt(document.getElementById('memBlockNum').value) || 0;
+                    command.offset = parseInt(document.getElementById('memOffset').value) || 0;
+                    if (action === 'readMemory') {
+                        command.length = parseInt(document.getElementById('memLength').value) || 16;
+                    } else {
+                        var len = parseInt(document.getElementById('memLength').value) || 16;
+                        command.data = new Array(len).fill(5);
+                    }
+                    break;
+                case 'fullInfo':
+                case 'shortInfo':
+                case 'licenseList':
+                case 'scanControllers':
+                case 'blockConverter':
+                case 'unblockConverter':
+                case 'removeConverter':
+                    break;
+                default:
+                    alert('Неизвестная команда: ' + action);
+                    return;
+            }
+
+            ws.send(JSON.stringify(command));
+        }
+
+        function connectConverter() {
+            var ip = document.getElementById('newConverterIP').value.trim();
+            if (!ip) {
+                alert('Введите IP адрес');
+                return;
+            }
+            ws.send(JSON.stringify({ action: 'connectConverter', ip: ip }));
+            document.getElementById('newConverterIP').value = '';
+        }
+
+        function scanControllers(ip) {
+            ws.send(JSON.stringify({ action: 'scanControllers', ip: ip }));
+        }
+
+        function blockConverter(ip) {
+            ws.send(JSON.stringify({ action: 'blockConverter', ip: ip }));
+        }
+
+        function removeConverter(ip) {
+            ws.send(JSON.stringify({ action: 'removeConverter', ip: ip }));
+        }
+
+        function clearAll() {
+            if (confirm('Удалить все конвертеры и контроллеры?')) {
+                ws.send(JSON.stringify({ action: 'clearAllConverters' }));
+                ws.send(JSON.stringify({ action: 'clearAllControllers' }));
+            }
+        }
+
+        connectWebSocket();
+    </script>
+</body>
+</html>

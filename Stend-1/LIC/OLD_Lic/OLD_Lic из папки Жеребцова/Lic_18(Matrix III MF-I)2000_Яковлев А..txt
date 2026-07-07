@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix III MF-I
+Count=2000
+Date=23.01.2020 10:43:09
+
+[Lic]
+Txt=?39DV(CEHYZ$ZQ^6K`@Z7+V*/ONP1)_JHWL`7OIGH>,D[95<HLY8Q7P!K

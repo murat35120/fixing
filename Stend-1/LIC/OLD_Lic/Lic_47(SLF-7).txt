@@ -1,0 +1,13 @@
+[STEND]
+Number=47
+
+[PARAM]
+Name=SLF-7
+Count=10
+CurNum=400
+MinNum=499
+MaxNum=500
+Date=20.08.2015 15:05:13
+
+[Lic]
+Txt=?&BC<H/1%^\0L)#3,+G&C3/J!=/C".-Y*$J@0![P?;1.:3Q4MJ'HC.`#K

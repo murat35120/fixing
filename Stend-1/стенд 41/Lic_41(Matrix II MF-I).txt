@@ -1,0 +1,10 @@
+[STEND]
+Number=41
+
+[PARAM]
+Name=Matrix II MF-I
+Count=20
+Date=15.05.2025 11:58:19
+
+[Lic]
+Txt=?4S48T':[=^`IP];&6]:?=!D&(&A84*+/M-&ASXPT_LM]^>.\*XKC(P`C

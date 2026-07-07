@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix III MF-I
+Count=1000
+Date=28.08.2018 13:53:19
+
+[Lic]
+Txt=?:YSE.08@Z5/MTB07\'VRT+MPF1@S?P+47WT,3F+9):3X`FL0X>'K#@`4

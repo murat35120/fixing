@@ -1,0 +1,18 @@
+List test modules for Stend-1 S/N:13
+ [01] -> M-II-Net %5d    
+  Current S/N = 4111
+  Minimum S/N = 4001
+  Maximum S/N = 4210
+  Pool prog   = 0
+  Ok   prog   = 110
+  Bad  prog   = 7
+ [02] -> Matrix V %5d  
+  Current S/N = 500
+  Minimum S/N = 500
+  Maximum S/N = 710
+  Pool prog   = 210
+  Ok   prog   = 0
+  Bad  prog   = 0
+ [03] ->PLR2-EH  (%05d)
+  Not found valid record
+End

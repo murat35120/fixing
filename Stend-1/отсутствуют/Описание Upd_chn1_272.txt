@@ -1,0 +1,31 @@
+chn1_272.rom
+
+ [01] ->   Matrix II    
+ [02] ->  Matrix II EH  
+ [03] ->  Matrix III EH 
+ [04] ->    PR-105      
+ [05] -> ZR-5 (M-II-K+) 
+ [06] ->  Z-5000        
+ [07] ->  Z-5R          
+ [08] ->  Z-5R Relay    
+ [09] ->   Z8EHT (%05d)
+ [10] ->   Z7EHT (%05d)
+ [11] ->Z8EH  PRG(%05d)
+ [12] ->SW-10 EH (%05d)
+ [13] ->SW-15 EH (%05d)
+ [14] ->SW-20 MFN(%05d)
+ [15] -> PLR3-M  (%05d)
+ [16] ->Mtrx KeyM(%05d)
+ [17] ->MtrxMetal(%05d)
+ [18] ->Mtrx3 E+ (%05d)
+ [19] ->Mtrx6 EH (%05d)
+ [20] -> Z9EHT   (%05d)
+ [21] ->Z9EHT PRG(%05d)
+ [22] -> RDM-10  (%05d)
+ [23] -> RDM-20  (%05d)
+ [24] -> RDX-20  (%05d)
+ [25] -> EUROLOCK %5d  
+ [26] ->   Z-595 (%05d)
+ [27] ->Z-595 iB (%05d)
+ [28] ->RDR-202  (%05d)
+ [29] ->RDR-202 P(%05d)

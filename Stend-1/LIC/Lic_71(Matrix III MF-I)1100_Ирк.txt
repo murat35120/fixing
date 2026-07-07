@@ -1,0 +1,10 @@
+[STEND]
+Number=71
+
+[PARAM]
+Name=Matrix III MF-I
+Count=1100
+Date=27.08.2020 13:42:48
+
+[Lic]
+Txt=?6;GP:UI`NG:/>C&["![F^9@_:;OWFPRW]1F\"CR#")XX&H[S<$U6,0#9

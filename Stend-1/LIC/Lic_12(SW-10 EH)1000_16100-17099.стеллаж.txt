@@ -1,0 +1,13 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=SW-10 EH
+Count=1000
+CurNum=16100
+MinNum=16100
+MaxNum=17099
+Date=12.11.2020 13:32:29
+
+[Lic]
+Txt=?H;4G_A6*V0>)8ZLS1+&._@S+GWI/>.!T#I7.NK\R@"'8V,36OS*`(0"[

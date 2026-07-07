@@ -1,0 +1,13 @@
+[STEND]
+Number=60
+
+[PARAM]
+Name=Matrix IV Keys Metal
+Count=1000
+CurNum=5329
+MinNum=5329
+MaxNum=6328
+Date=16.04.2021 13:01:29
+
+[Lic]
+Txt=?L8$!-FD2(ZC`ZYO.-D[R+T%P^73L?3BOOW6R%0268"M>I:K^!)9@*P"D

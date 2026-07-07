@@ -1,0 +1,10 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix III E plus
+Count=500
+Date=06.07.2020 9:01:57
+
+[Lic]
+Txt=?_/,H\@+F;,X$$9E;?YW%5MC^X\F`JH&L5`M3OUD&G#0I."/;26SE*P`I

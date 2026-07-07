@@ -1,0 +1,13 @@
+[STEND]
+Number=20
+
+[PARAM]
+Name=Matrix IV Keys
+Count=400
+CurNum=300
+MinNum=300
+MaxNum=65535
+Date=30.08.2011 16:18:28
+
+[Lic]
+Txt=?Q3S&GDWJ.3E;-6Z265QFUV']<7B[MV)/3"G:BXH"VWM(W5*PB@+;>P"/

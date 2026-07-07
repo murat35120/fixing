@@ -1,0 +1,13 @@
+[STEND]
+Number=22
+
+[PARAM]
+Name=Matrix II WiFi
+Count=500
+CurNum=53000
+MinNum=53000
+MaxNum=53499
+Date=11.02.2021 15:33:19
+
+[Lic]
+Txt=?AZ4)B:PBJ<_-ZM$=WFR_0UMAXC="AC#B=X,5W353F9*R&70[-5.9D@!'

@@ -1,0 +1,10 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix III MF
+Count=1000
+Date=04.06.2014 16:59:34
+
+[Lic]
+Txt=?>ZM&[:MAB\X4/LZ7F]4(-)5GG)/^*.:P(O]\$OR@*:#S%^TH?>W-,@"0

@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II MF-I
+Count=2000
+Date=29.04.2016 12:37:55
+
+[Lic]
+Txt=?,U@WDJ%#R28^9*:^0A43H$#HF&X6"R&'G%C>2>JQ+<95L:T\X>M`R@"O

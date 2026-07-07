@@ -1,0 +1,13 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Matrix III MF-I
+Count=2000
+CurNum=56001
+MinNum=56001
+MaxNum=58000
+Date=18.07.2019 11:24:40
+
+[Lic]
+Txt=?*\H065'51Z%]U_,P%KWR(8`\U$Z<YOR26HI==6C3Q.8!#"I`:-/$Y@"Q

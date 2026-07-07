@@ -1,0 +1,13 @@
+[STEND]
+Number=4
+
+[PARAM]
+Name=Matrix II Net
+Count=500
+CurNum=61901
+MinNum=61901
+MaxNum=62400
+Date=14.12.2020 9:25:33
+
+[Lic]
+Txt=?MI>):JDW^Y")=G<QT"1-%^,?TPTR]NQ(CF)64/-%*!\KP&*K\T4H'P`'

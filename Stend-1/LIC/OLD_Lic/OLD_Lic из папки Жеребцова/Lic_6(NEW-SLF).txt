@@ -1,0 +1,13 @@
+[STEND]
+Number=6
+
+[PARAM]
+Name=NEW-SLF
+Count=3000
+CurNum=1000
+MinNum=1000
+MaxNum=4000
+Date=09.10.2017 15:10:55
+
+[Lic]
+Txt=?FV]JBK.`XL>-'DL$O;7G2M$RR*,X9$(Q%3K3Z;$9+W,>%AG.L1DO<P"_

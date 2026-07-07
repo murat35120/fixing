@@ -1,0 +1,13 @@
+[STEND]
+Number=22
+
+[PARAM]
+Name=Z-5R Net
+Count=2500
+CurNum=23000
+MinNum=23000
+MaxNum=26000
+Date=14.02.2014 15:59:30
+
+[Lic]
+Txt=?-D#)O+_W:>,FF9PJG;U_$<88Q1X9*E\77Y5ARB<=[9PHW^)B)QWMG`#U

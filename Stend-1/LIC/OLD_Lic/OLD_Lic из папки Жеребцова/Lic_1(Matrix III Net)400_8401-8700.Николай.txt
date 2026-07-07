@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix III Net
+Count=300
+CurNum=8401
+MinNum=8401
+MaxNum=8700
+Date=31.08.2020 8:44:39
+
+[Lic]
+Txt=?61)S$#:\$JC2J9Y&Z:$T+Y58*/%"41N43C!<BM'5&-.AA+L\T=48TP`I

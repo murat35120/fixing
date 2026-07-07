@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=CH2EH
+Count=330
+CurNum=7601
+MinNum=7600
+MaxNum=8200
+Date=07.12.2017 12:56:25
+
+[Lic]
+Txt=?4>K1X7:8%0H(OE<\.+>JC$?N`C?4":6)]IMY3A2?^7P-&F?E:8\WG0"+

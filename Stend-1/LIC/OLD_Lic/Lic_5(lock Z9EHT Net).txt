@@ -1,0 +1,13 @@
+[STEND]
+Number=5
+
+[PARAM]
+Name=lock Z9EHT Net
+Count=1100
+CurNum=200
+MinNum=200
+MaxNum=2000
+Date=29.04.2013 11:33:59
+
+[Lic]
+Txt=?=#K"7T8IX938B5MC(TPS9BV%Z[2D`3G:ZMF\BZ*SEI(T<T/!HK.6D@"&

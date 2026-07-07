@@ -1,0 +1,10 @@
+[STEND]
+Number=4
+
+[PARAM]
+Name=Matrix II MF-I
+Count=10
+Date=10.10.2018 8:56:25
+
+[Lic]
+Txt=?*[]:^>Y-?)NTO.2\JSAQ&`@,-&*3R:PDR:7^3`)X5GMV.U)"`DT`]P!^

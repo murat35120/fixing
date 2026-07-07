@@ -1,0 +1,10 @@
+[STEND]
+Number=3
+
+[PARAM]
+Name=Z395_Z396EHT
+Count=2500
+Date=27.03.2017 16:31:38
+
+[Lic]
+Txt=?BZG2^@X%F&ZPI?6LI+70FHTI<BJE=%-6`Z$Q6ZU?.P))0*H?_FF71@`R

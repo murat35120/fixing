@@ -1,0 +1,13 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=SLF-7
+Count=20
+CurNum=500
+MinNum=499
+MaxNum=550
+Date=18.11.2016 13:26:21
+
+[Lic]
+Txt=?RH/5(H9N??QS\Y5TCDE#"LP&?B7G9^WJ(V3V#B5E!,`*'<-4/H-5<P`N

@@ -1,0 +1,13 @@
+[STEND]
+Number=70
+
+[PARAM]
+Name=Matrix III Net
+Count=300
+CurNum=8101
+MinNum=8101
+MaxNum=8400
+Date=07.08.2020 12:54:38
+
+[Lic]
+Txt=?K0R,C[J%9!M)$.8:8KM:G/,%R@RFWNWA7?_Z2\PK$F"Z?P_"S"L28`"-

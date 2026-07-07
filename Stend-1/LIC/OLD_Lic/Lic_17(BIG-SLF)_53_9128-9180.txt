@@ -1,0 +1,13 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=BIG-SLF
+Count=53
+CurNum=9128
+MinNum=9128
+MaxNum=9180
+Date=23.09.2016 15:46:47
+
+[Lic]
+Txt=?L_-5Q>+79>N)RU#?=^8>:#&O<H?"8P<U#6&%C9&E1NFOJO-UD:5&Z0`H

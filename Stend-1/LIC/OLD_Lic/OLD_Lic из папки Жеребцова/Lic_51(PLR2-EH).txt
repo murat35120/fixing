@@ -1,0 +1,10 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=PLR2-EH
+Count=500
+Date=20.10.2017 10:38:13
+
+[Lic]
+Txt=??D*BG"3ZG7A,G<&N@>*1B7%3O%W``UNA,K]HV-Y5[N:V31<:E@XK$P#A

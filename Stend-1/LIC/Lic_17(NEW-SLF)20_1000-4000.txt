@@ -1,0 +1,13 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=NEW-SLF
+Count=20
+CurNum=1000
+MinNum=1000
+MaxNum=4000
+Date=12.07.2018 14:37:17
+
+[Lic]
+Txt=?(*X$%`G/US_I'&2LX_=WM;E2A:MK"<8)!9:B5!V#VN?HT:V8'8/:YP"2

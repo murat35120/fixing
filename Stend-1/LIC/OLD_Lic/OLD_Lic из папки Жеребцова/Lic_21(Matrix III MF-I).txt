@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF-I
+Count=10
+Date=13.10.2017 9:50:45
+
+[Lic]
+Txt=?IO(K)P3SIG>2#'[>"HZL\A1_1.UMV4B+34;7Y&2#"H_/#7N<!35P50!$

@@ -1,0 +1,13 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix IV Keys
+Count=1000
+CurNum=1000
+MinNum=1000
+MaxNum=65535
+Date=13.09.2013 16:22:40
+
+[Lic]
+Txt=?!J)$JW%/78O'X4$OX_DQ:>DSC@8$/+Z^)H"CB2:`HXF,ACPE)H"CB0`4

@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II Net
+Count=2000
+CurNum=55901
+MinNum=55901
+MaxNum=57900
+Date=26.03.2019 18:04:27
+
+[Lic]
+Txt=?,()_B5][\)1VG^^4BK.R'(PLI-#U#NG;\]XT^@M<;FY'X4V_"UQN;@"-

@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix III MF-I
+Count=2000
+Date=19.12.2016 10:23:09
+
+[Lic]
+Txt=?J;V^N=+55E$?ZDY^:;2"UK00U@&8?/W@.J_4X37E>5>Q=P.JXZ]P30#T

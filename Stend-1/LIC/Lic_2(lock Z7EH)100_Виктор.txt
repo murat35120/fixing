@@ -1,0 +1,13 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=lock Z7EH
+Count=100
+CurNum=53902
+MinNum=53902
+MaxNum=55901
+Date=20.03.2020 13:17:06
+
+[Lic]
+Txt=?*@8<P=:;N;$8\QP]K<:",0ID!P3*D("%>Q`2'YUV/[@&OJF'G78_N`"%

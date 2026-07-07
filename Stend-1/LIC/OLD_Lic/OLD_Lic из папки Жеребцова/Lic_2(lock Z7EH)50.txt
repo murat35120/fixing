@@ -1,0 +1,10 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=lock Z7EH
+Count=50
+Date=05.02.2019 14:53:31
+
+[Lic]
+Txt=?F=HEEC57L#TF=LN8PA:ZLQ\B'.JVU5^YY1)"VKFH596ZFX:53Z=58P#?

@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix III Net
+Count=1000
+CurNum=1501
+MinNum=1501
+MaxNum=2500
+Date=05.05.2014 15:08:12
+
+[Lic]
+Txt=?'407P(0CVFX%[]'%S@)&G*`$N`'Q%MB&GLE.4T6+<,T-,V5X18MPS0!+

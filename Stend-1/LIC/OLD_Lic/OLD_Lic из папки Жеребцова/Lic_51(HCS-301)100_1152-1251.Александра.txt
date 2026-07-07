@@ -1,0 +1,13 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=HCS-301
+Count=100
+CurNum=1152
+MinNum=1152
+MaxNum=1251
+Date=28.05.2020 13:14:15
+
+[Lic]
+Txt=?9;\34W8$VIDO@&7BRBX_8.UQ<NGFH):#^?V90LCXB\N:"=HOR/B+RP#*

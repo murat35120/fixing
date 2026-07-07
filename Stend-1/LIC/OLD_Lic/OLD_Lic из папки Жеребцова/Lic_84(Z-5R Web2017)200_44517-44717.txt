@@ -1,0 +1,13 @@
+[STEND]
+Number=84
+
+[PARAM]
+Name=Z-5R Web
+Count=200
+CurNum=44517
+MinNum=44517
+MaxNum=44717
+Date=16.02.2018 15:15:38
+
+[Lic]
+Txt=?^WM\'^O#-+P%5(<!%H\\+X6E:U1TK5^&@)M<91W"[9E"8H"^'<+MF0!H

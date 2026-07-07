@@ -1,0 +1,13 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=Matrix III Net
+Count=600
+CurNum=7601
+MinNum=7600
+MaxNum=8200
+Date=28.12.2017 16:55:30
+
+[Lic]
+Txt=?8),6%:`=S=N?/FP3,<-H5@'4,&@9#,;5"BB\L_N]H%8+/KUMQF]C&0`Z

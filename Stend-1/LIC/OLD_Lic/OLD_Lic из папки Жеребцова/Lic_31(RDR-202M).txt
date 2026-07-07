@@ -1,0 +1,13 @@
+[STEND]
+Number=31
+
+[PARAM]
+Name=RDR-202M
+Count=3000
+CurNum=26000
+MinNum=26000
+MaxNum=28999
+Date=28.07.2017 14:40:43
+
+[Lic]
+Txt=?7TMLMA8.78OQZE$J+DN9",C`H6]*YX.1HBV*$#K(+3H"H1AR.L@M.@#0

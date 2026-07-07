@@ -1,0 +1,10 @@
+[STEND]
+Number=3
+
+[PARAM]
+Name=lock Z7EH
+Count=1000
+Date=11.07.2017 14:06:09
+
+[Lic]
+Txt=?#N=.=:1\9+?2/^K$.3O`/5*":-"O.T)!.2:K]+Z+T8I,X-(@&Y]%"0#U

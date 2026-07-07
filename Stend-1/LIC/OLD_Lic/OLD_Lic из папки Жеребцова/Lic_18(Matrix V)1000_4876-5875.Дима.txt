@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix V
+Count=1000
+CurNum=4876
+MinNum=4876
+MaxNum=5875
+Date=19.02.2020 11:08:47
+
+[Lic]
+Txt=?5Y!&,@4DTH9<)N3W32G3>\W*NIMM)XWYV:#0J4=NQ'((K1L31V[$<@`Y

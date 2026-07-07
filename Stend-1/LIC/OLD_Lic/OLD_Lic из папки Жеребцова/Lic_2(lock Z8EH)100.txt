@@ -1,0 +1,10 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=lock Z8EH
+Count=100
+Date=28.11.2018 17:31:46
+
+[Lic]
+Txt=?T,0=`ISXV`RQ3DEY,TOK@6MW"4ONLM?V_9!`-&67@J8R)9@"8[K3V@"Z
