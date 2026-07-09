@@ -1,0 +1,21 @@
+
+
+List test modules for Stend-1 S/N:1006
+ [01] ->CPZ2-M   (%05d)
+ [02] ->CPZ2-MFI (%05d)
+ [03] ->CPZ2-EH  (%05d)
+ [04] -> M-3-Net  %5d  
+ [05] -> RePRG M-3-Net     
+ [06] -> M2-EK WF %5d    
+ [07] ->M6-EHK WF %5d    
+ [08] -> Z5R WF   %5d    
+ [09] ->M2-EH Web %5d    
+ [10] ->M6-EH Web %5d    
+ [11] ->Z5R Web_m %5d    
+ [12] ->   CH2EH (%05d)
+ [13] -> M-8-RF   %5d  
+ [14] -> M-4-RFNR %5d  
+ [15] ->M3 Rd-All(%05d)
+ [16] ->Z-5R Web  %5d    
+ [17] ->Z-5R WBT  %5d    
+

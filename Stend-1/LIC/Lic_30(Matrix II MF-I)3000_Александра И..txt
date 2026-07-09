@@ -1,0 +1,10 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Matrix II MF-I
+Count=3000
+Date=20.03.2020 13:44:10
+
+[Lic]
+Txt=?B((,=,45R.`"%"4=$TK[;EP[/2WL@5@>SCF6E)/6@037X20N+E]1]`"9

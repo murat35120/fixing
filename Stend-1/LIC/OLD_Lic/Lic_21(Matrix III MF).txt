@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF
+Count=1000
+Date=28.11.2013 18:17:47
+
+[Lic]
+Txt=?XA-R>A251-(VK+P_>S1_+WQ,4)!/<58R(EJ4XF')-QVA[VXK+LT/2P#:

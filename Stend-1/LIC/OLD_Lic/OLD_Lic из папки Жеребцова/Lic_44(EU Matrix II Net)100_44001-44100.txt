@@ -1,0 +1,13 @@
+[STEND]
+Number=44
+
+[PARAM]
+Name=EU Matrix II Net
+Count=100
+CurNum=44001
+MinNum=44001
+MaxNum=44100
+Date=11.05.2018 10:07:23
+
+[Lic]
+Txt=??X4Q,VB.<IM;K(`EZI/A$3DG]#*$L_:*75*QTM]0'7OZYX79WU`=>P"J

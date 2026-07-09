@@ -1,0 +1,13 @@
+[STEND]
+Number=75
+
+[PARAM]
+Name=CPZ2-MFI
+Count=2000
+CurNum=21001
+MinNum=21001
+MaxNum=23000
+Date=17.10.2019 10:47:20
+
+[Lic]
+Txt=?LF:`RSL_TJ$-\IO2V3J[+R_,U-R3X+`COP\.B3W*`V&6J;O;/<H#80`>

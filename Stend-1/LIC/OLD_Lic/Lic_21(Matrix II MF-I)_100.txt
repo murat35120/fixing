@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II MF-I
+Count=100
+CurNum=25001
+MinNum=22200
+MaxNum=26000
+Date=24.12.2014 15:27:14
+
+[Lic]
+Txt=?0=Z:8@-'*!+1D]U9/`[TZ<P1),E4APOT%P*%"5E!]GJA&/;*

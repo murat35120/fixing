@@ -1,0 +1,13 @@
+[STEND]
+Number=72
+
+[PARAM]
+Name=CPZ2-MFI
+Count=2000
+CurNum=47001
+MinNum=47001
+MaxNum=49000
+Date=14.08.2020 10:45:33
+
+[Lic]
+Txt=?\G@@]ZW"H\2*KKB%%L>51-QGNKBL?K-RH+#:]3/F>H@7W>\U,^9ZB`!Q

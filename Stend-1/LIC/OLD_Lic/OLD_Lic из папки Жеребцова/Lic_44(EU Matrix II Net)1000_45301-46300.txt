@@ -1,0 +1,13 @@
+[STEND]
+Number=44
+
+[PARAM]
+Name=EU Matrix II Net
+Count=1000
+CurNum=45301
+MinNum=45301
+MaxNum=46300
+Date=16.07.2019 14:53:56
+
+[Lic]
+Txt=?L#WA9#MYI8"B2=X^[D)M".CGD7<RM6Y;"EV^)_P43O_)$Y6C_!1._P`.

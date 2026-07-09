@@ -1,0 +1,13 @@
+[STEND]
+Number=22
+
+[PARAM]
+Name=Z-5R Net
+Count=2000
+CurNum=26501
+MinNum=26501
+MaxNum=28500
+Date=22.10.2014 17:23:06
+
+[Lic]
+Txt=?DN\AWS**61!&;VW,G357XWAD@P\6M62&^"#/<,%,&KEU[!>FP4P:N0!@

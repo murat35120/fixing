@@ -1,0 +1,10 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Matrix III MF-I
+Count=1000
+Date=13.04.2018 13:13:54
+
+[Lic]
+Txt=?%-/FQT1=[EBAG_4_K`<DVJ[C^\+W$*%OF;+.P=49.S=2H;)+'FR%W0"+

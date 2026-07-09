@@ -1,0 +1,10 @@
+[STEND]
+Number=10002
+
+[PARAM]
+Name=Z495_Z496EHT
+Count=2000
+Date=27.03.2017 16:32:12
+
+[Lic]
+Txt=?(=,E#A-Z2`*Z)FDA7>T`]LG[,_<?Q*M88/;:W,JA0XEZ9+#/:XC$;@"D

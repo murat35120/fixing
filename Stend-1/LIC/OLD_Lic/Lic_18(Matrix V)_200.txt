@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix V
+Count=200
+CurNum=2170
+MinNum=2170
+MaxNum=2370
+Date=20.11.2012 9:40:40
+
+[Lic]
+Txt=?(@)^(%4,_'"1YP[U&17:_),`GBK6,:6Z9FU#EWUPE,]:>.FA?7"4SP!^

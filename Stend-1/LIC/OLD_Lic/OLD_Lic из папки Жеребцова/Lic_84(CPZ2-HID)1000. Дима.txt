@@ -1,0 +1,10 @@
+[STEND]
+Number=84
+
+[PARAM]
+Name=CPZ2-HID
+Count=1000
+Date=31.10.2019 17:30:19
+
+[Lic]
+Txt=?F#`/J6HN*2WS7%;ZM/5.HH,EFH]%QDI'SH7#@DJY@.&?]OVY"(X9Z@`H

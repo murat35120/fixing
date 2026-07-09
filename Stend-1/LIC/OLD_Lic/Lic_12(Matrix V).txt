@@ -1,0 +1,13 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix V
+Count=200
+CurNum=1001
+MinNum=1000
+MaxNum=1200
+Date=10.10.2011 17:08:55
+
+[Lic]
+Txt=?<%&>-+T)$5H7I:_TY=0)V-I%)6<1)'>#$XS@JS7UVC(O39"J597KF0#1

@@ -1,0 +1,13 @@
+[STEND]
+Number=70
+
+[PARAM]
+Name=Matrix III Rd-All
+Count=2000
+CurNum=47902
+MinNum=47902
+MaxNum=49901
+Date=18.11.2019 16:41:00
+
+[Lic]
+Txt=?=&(!,S_:@MTC%,[F"QN[5CXV^^?IZ'L`K$AE]GF#Q4E"ZHVE>8/%20`:

@@ -1,0 +1,10 @@
+[STEND]
+Number=80
+
+[PARAM]
+Name=SW-15 EH
+Count=250
+Date=20.03.2018 15:43:12
+
+[Lic]
+Txt=?FST2FF(C!N*Z;)!^!PE)%H=Z\HVV4'26@`3\@Z%MER[^0^QO'"-,W`"^

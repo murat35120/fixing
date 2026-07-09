@@ -1,0 +1,13 @@
+[STEND]
+Number=74
+
+[PARAM]
+Name=Z-5R Ext
+Count=3000
+CurNum=64001
+MinNum=64001
+MaxNum=65535
+Date=28.11.2019 16:29:30
+
+[Lic]
+Txt=?5\S*"CH<W'97=FGJA:KX]'T-2W*C;\L96CRQIY946;>;+!(2EE19MP`#

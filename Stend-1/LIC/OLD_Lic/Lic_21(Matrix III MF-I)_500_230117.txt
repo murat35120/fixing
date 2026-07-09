@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF-I
+Count=500
+Date=23.01.2017 15:37:47
+
+[Lic]
+Txt=?!$?NJ0<(J,+Y6VQ+Z$?81N<)N-OR:"_J^I8A*4H;;?G.>\UV,?J]]0#J

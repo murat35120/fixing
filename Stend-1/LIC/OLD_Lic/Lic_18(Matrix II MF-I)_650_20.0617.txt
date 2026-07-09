@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II MF-I
+Count=650
+CurNum=3920
+MinNum=3920
+MaxNum=4500
+Date=20.06.2017 11:29:17
+
+[Lic]
+Txt=?4IE,HR_X8P4.44\,V)'P@;*7MG`75$O0)K\3!;``6CON$=]2L`!:.P!1

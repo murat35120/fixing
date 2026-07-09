@@ -1,0 +1,13 @@
+[STEND]
+Number=22
+
+[PARAM]
+Name=Z-5R Net
+Count=486
+CurNum=12114
+MinNum=12114
+MaxNum=12600
+Date=24.07.2015 18:26:21
+
+[Lic]
+Txt=?Z7EJ'+A9=,U=3&<0OO_4/8()SH?2VI^FX@]2Q'DLMMKNAHU8>2RVV@!R

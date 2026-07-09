@@ -1,12 +1,21 @@
 $fn=50;
 ts=1.5; //толщина стенки
 
+<<<<<<< HEAD:печать/держатель катушки с припоем/держатель катушки1.scad
 kat=[18, 65, 57+ts*2];//размер ячейкм
 val=4; //толщина вала
 nit=1; //диаметр припоя
 fix=8; 
 ddd=0.3; //поправка на погрешность печати
 
+=======
+kat=[18.5, 60, 56+ts*2];//размер ячейкм
+val=4;
+nit=1;
+fix=8;
+ddd=0.3;
+//hk=kat.y*2/3;
+>>>>>>> a50ebd55dc488fc43c47e5192d83e6e2d9d5b090:печать/держатель катушки с припоем/держатель катушки.scad
 hk=kat.y/2+2*val+ts*2;
 
 
@@ -14,8 +23,8 @@ hk=kat.y/2+2*val+ts*2;
 
 
 bas();
-translate([0, kat.y,0])fiix();
-translate([0, -kat.y,0])fiix();
+translate([0, kat.y+2*ts,0])fiix();
+translate([0, -kat.y-2*ts,0])fiix();
 translate([kat.y,0,0]) vall();
 
 module bas(){
@@ -25,7 +34,7 @@ module bas(){
            minus(); 
            nitt();
         }
-        translate([-kat.y/2,0,0])rotate([0,90,0])cylinder(kat.y, kat.y*2/3, kat.y*2/3);
+        translate([-(kat.z+10)/2,0,0])rotate([0,90,0])cylinder(kat.z+10, kat.y*2/3, kat.y*2/3);
     }
 }
 

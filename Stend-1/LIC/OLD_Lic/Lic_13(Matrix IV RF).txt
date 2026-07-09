@@ -1,0 +1,10 @@
+[STEND]
+Number=13
+
+[PARAM]
+Name=Matrix IV RF
+Count=210
+Date=08.04.2014 10:47:56
+
+[Lic]
+Txt=?^F,^&BRF64_;B<!7D,>)M44=I:.-Y&81>P[<--S)!,#N0S9C3$YWL`#1

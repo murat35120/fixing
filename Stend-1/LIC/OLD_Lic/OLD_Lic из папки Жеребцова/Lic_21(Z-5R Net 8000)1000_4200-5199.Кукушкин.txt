@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Z-5R Net 8000
+Count=1000
+CurNum=4200
+MinNum=4200
+MaxNum=5199
+Date=10.01.2020 9:20:30
+
+[Lic]
+Txt=?1"GV*4H/%0C-D;1?BG!G^.GS.I"&AMW`BXOSK;P/4P<Q\A*\O`]3!P"6

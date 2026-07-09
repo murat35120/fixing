@@ -1,0 +1,10 @@
+[STEND]
+Number=83
+
+[PARAM]
+Name=Matrix III E plus
+Count=500
+Date=22.11.2019 13:40:17
+
+[Lic]
+Txt=?J##F0/0=&E9'_!IOXD,CP8"3O3P0M!F#V8(O!/?2=WD;7*S($-EBM`"C

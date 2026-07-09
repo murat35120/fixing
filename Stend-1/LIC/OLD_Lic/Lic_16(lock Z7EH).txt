@@ -1,0 +1,10 @@
+[STEND]
+Number=16
+
+[PARAM]
+Name=lock Z7EH
+Count=10
+Date=03.08.2011 13:03:24
+
+[Lic]
+Txt=?7NW!G!9F^>'1Z5DK,#FU'CC*)40FPLTEYXU%[F(XD&/`]:N)X!M$*P"C

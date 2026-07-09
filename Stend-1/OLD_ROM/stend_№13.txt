@@ -1,0 +1,18 @@
+[01] -> M-II-Net %5d    
+  Not found valid record
+ [02] -> Matrix V %5d  
+  Not found valid record
+ [03] ->   LOCK1 (%05d)
+  Current S/N = 0
+  Minimum S/N = 1
+  Maximum S/N = 65535
+  Pool prog   = 99
+  Ok   prog   = 121
+  Bad  prog   = 2
+ [04] ->PLR2-EH  (%05d)
+  Current S/N = 0
+  Minimum S/N = 1
+  Maximum S/N = 65535
+  Pool prog   = 1
+  Ok   prog   = 9
+  Bad  prog   = 0

@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II MF-I
+Count=2000
+Date=04.04.2019 16:23:40
+
+[Lic]
+Txt=?_QG(`J90Q$6@+N%7"N`'Q=OHB!:RBC^)F41P3:KEO!`*`;T`U1MHH0`M

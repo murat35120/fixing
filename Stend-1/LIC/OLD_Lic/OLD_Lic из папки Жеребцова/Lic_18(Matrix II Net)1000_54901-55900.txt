@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II Net
+Count=1000
+CurNum=54901
+MinNum=54901
+MaxNum=55900
+Date=12.02.2019 9:32:30
+
+[Lic]
+Txt=?K[TFECV;?ID3XIWS;8\*$6'`E4M<C5]5?G`'KG2<!EO/N?7R=)P&6P#%

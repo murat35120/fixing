@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II Net
+Count=2000
+CurNum=15001
+MinNum=15001
+MaxNum=17000
+Date=13.09.2013 16:16:26
+
+[Lic]
+Txt=?ZS?1*59*T)D(_4.T!9#%;-PTORJ@8]K'S`K[E]SN[_^(WX+DW.[O_P"+

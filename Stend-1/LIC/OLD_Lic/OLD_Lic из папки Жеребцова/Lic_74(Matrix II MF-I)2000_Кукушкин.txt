@@ -1,0 +1,10 @@
+[STEND]
+Number=74
+
+[PARAM]
+Name=Matrix II MF-I
+Count=2000
+Date=23.01.2020 10:06:02
+
+[Lic]
+Txt=?07LLKTXD%(39Q=%CB$9D"OW*@"EIT,1#[4LQT=V_#L.B5N-3P$QY9P`4

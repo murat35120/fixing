@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II Net
+Count=600
+CurNum=21001
+MinNum=21000
+MaxNum=21600
+Date=06.11.2014 18:56:02
+
+[Lic]
+Txt=?%X[T(FZ9W%Q+&:T--U:"KWRV22M9T<4C/35/FQ<52%2/]$:D;[[Z)0#>

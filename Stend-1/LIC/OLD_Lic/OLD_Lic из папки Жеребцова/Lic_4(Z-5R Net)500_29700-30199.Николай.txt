@@ -1,0 +1,13 @@
+[STEND]
+Number=4
+
+[PARAM]
+Name=Z-5R Net
+Count=500
+CurNum=29700
+MinNum=29700
+MaxNum=30199
+Date=29.06.2020 10:39:51
+
+[Lic]
+Txt=?=>\`MDH(?Y-#>/NC[6GZ%8;55ACF:.#\8<+Y'2\!+1K0`0$!+P$M&@`D

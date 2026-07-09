@@ -1,0 +1,13 @@
+[STEND]
+Number=84
+
+[PARAM]
+Name=Z-5R Web
+Count=500
+CurNum=50145
+MinNum=50145
+MaxNum=50644
+Date=24.09.2019 10:44:06
+
+[Lic]
+Txt=?4@Z$56[R^AB4%\FOXY*:B)R>ES/GBN9358[RF@5WE+R+RXMH!7>4O`!L

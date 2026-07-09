@@ -1,0 +1,13 @@
+[STEND]
+Number=72
+
+[PARAM]
+Name=Matrix III Rd-All
+Count=2000
+CurNum=41902
+MinNum=41902
+MaxNum=43901
+Date=12.07.2019 10:59:01
+
+[Lic]
+Txt=?4>)>")UI<B7A2Z"GYWK5K\[20!0.@X_9N"RT49=1F@4JC+U`EU&:!0"^

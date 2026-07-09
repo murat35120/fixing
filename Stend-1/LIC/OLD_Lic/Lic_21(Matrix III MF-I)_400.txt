@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF-I
+Count=400
+CurNum=25001
+MinNum=22200
+MaxNum=26000
+Date=24.12.2014 15:27:28
+
+[Lic]
+Txt=?)*L-<#F^+J>4<WCQ#_;R7,\>&\KL]#ZQ$=6MBF1BDZX8.-C%

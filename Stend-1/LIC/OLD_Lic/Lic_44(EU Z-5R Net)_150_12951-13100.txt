@@ -1,0 +1,13 @@
+[STEND]
+Number=44
+
+[PARAM]
+Name=EU Z-5R Net
+Count=150
+CurNum=12951
+MinNum=12951
+MaxNum=13100
+Date=26.05.2017 15:49:02
+
+[Lic]
+Txt=?$,:T!B8YGRNK#@(*;AT=IQAYV--O4Z-,JLTS4['\48D^S:*CL?Q1B0#9

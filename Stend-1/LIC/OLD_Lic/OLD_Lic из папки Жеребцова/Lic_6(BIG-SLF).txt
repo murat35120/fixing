@@ -1,0 +1,13 @@
+[STEND]
+Number=6
+
+[PARAM]
+Name=BIG-SLF
+Count=1000
+CurNum=3000
+MinNum=3000
+MaxNum=4000
+Date=09.10.2017 15:10:31
+
+[Lic]
+Txt=?:#Z#C;NN"]SYXP^\H9L.78/*JJ/6\-)C1E$$,--<%`?.2:Y2TUP4!P`K

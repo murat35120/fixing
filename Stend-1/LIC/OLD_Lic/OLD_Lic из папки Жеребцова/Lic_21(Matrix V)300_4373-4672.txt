@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix V
+Count=300
+CurNum=4373
+MinNum=4373
+MaxNum=4672
+Date=11.04.2018 16:43:15
+
+[Lic]
+Txt=?TBY-"4?(A.2*\$RN>!E=%86@^S-H:K*]VWP5#37U]Z=7ZFH2-?7WIP"M

@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix IV Keys
+Count=250
+Date=24.07.2015 14:05:31
+
+[Lic]
+Txt=?&0:`(M(D5P4C-)61(F#NXHF`$OO+Q/#XV],HS!4I+_D51-J3J<9O6P`(

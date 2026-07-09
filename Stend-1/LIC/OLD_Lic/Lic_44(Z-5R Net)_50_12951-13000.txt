@@ -1,0 +1,13 @@
+[STEND]
+Number=44
+
+[PARAM]
+Name=Z-5R Net
+Count=50
+CurNum=12951
+MinNum=12950
+MaxNum=13000
+Date=30.03.2017 15:41:12
+
+[Lic]
+Txt=?8&H_0CX!O*';%.>6;DF:+0>WSS-B)18V*>Z-A\'TGN(*?N!*?,T.O0!+

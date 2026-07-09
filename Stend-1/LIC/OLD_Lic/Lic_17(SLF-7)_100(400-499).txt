@@ -1,0 +1,13 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=SLF-7
+Count=100
+CurNum=400
+MinNum=499
+MaxNum=500
+Date=18.11.2014 13:52:08
+
+[Lic]
+Txt=?#5-2XL]!Y"R%%3J&"6/:IN-`B9MYIML^9SER[%9LX4Y#1`K,5,>6I@"`

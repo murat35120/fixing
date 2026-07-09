@@ -1,0 +1,10 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=Z395_Z396EHT
+Count=100
+Date=18.05.2017 15:29:26
+
+[Lic]
+Txt=?,O6Y1U6D,$LP'@D+H.RQO\-3*W)V`B-@H#U1)62+Q20>"OE1LAQPPP"#

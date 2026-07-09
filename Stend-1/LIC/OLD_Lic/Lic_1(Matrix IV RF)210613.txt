@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix IV RF
+Count=120
+CurNum=100
+MinNum=1
+MaxNum=65535
+Date=21.06.2013 10:16:16
+
+[Lic]
+Txt=?G=ZY_VI"1._74Y40(23)$R8\CTH)64RSI*5K4^;VEWN#'>K3_]1-2P"V

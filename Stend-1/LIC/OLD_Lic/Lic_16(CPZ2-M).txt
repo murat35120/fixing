@@ -1,0 +1,13 @@
+[STEND]
+Number=16
+
+[PARAM]
+Name=CPZ2-M
+Count=19
+CurNum=33000
+MinNum=33000
+MaxNum=35000
+Date=28.01.2015 18:42:15
+
+[Lic]
+Txt=?>ZU`BW-61O7CF"/A9Y-"!OZ]LWNR[%R#V]!0]-<.<LB%D4XJUPYRR``+

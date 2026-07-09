@@ -1,0 +1,13 @@
+[STEND]
+Number=84
+
+[PARAM]
+Name=Z-5R Web
+Count=500
+CurNum=46081
+MinNum=46081
+MaxNum=46580
+Date=06.12.2018 15:06:07
+
+[Lic]
+Txt=?LGEC($LPR]Q6;-?LAGT53L^L>16\P,PCB@[#%7$'=P24U+.P<0=W!`"!

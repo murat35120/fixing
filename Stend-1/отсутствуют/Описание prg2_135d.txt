@@ -1,0 +1,24 @@
+
+
+
+ [01] ->CPZ2-M
+
+ [02] ->CPZ2-MFI
+
+ [03] ->CPZ2-EH
+
+ [04] -> M-3-Net
+
+ [05] -> RePRG M-3-Net
+    
+ [06] -> M2-WiFi
+
+ [07] ->   CH2EH
+
+ [08] -> M-4-RF
+
+ [09] -> M-4-RFNR
+ 
+ [10] ->M3 Rd-All
+
+ [11] -> Z-5R Web

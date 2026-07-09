@@ -1,0 +1,10 @@
+[STEND]
+Number=8
+
+[PARAM]
+Name=SW-15 EH
+Count=310
+Date=06.07.2017 12:18:22
+
+[Lic]
+Txt=?H-BK>TRM@-`=5Z;]7)A=(M4DN0@?Q%#M*OZB(26I;[2T>"X\Y#+<@@!C

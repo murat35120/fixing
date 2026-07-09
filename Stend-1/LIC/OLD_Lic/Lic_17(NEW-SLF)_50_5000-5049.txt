@@ -1,0 +1,13 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=NEW-SLF
+Count=50
+CurNum=5000
+MinNum=5000
+MaxNum=5049
+Date=23.09.2016 12:15:36
+
+[Lic]
+Txt=?`IXL3LB-7PN9HEF`>*`DA`SV]V<9/V-)0H'6F]_-1&8$>Y,DW\U$9@`A

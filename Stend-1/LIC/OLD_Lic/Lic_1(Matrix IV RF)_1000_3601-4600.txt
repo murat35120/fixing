@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix IV RF
+Count=1000
+CurNum=3601
+MinNum=3600
+MaxNum=4600
+Date=06.06.2016 14:11:31
+
+[Lic]
+Txt=?*F<&NSR;3<O3@:2''][335YM-5RD#PD?>G^:!%2H!X<-M1M0'Q)$PP![

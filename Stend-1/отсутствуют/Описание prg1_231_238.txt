@@ -1,0 +1,98 @@
+prg1_231
+
+
+SA-03
+  
+M-II-Net
+  
+M6-EH-Net
+  
+Z-5R Net
+ 
+Z5R 8000
+ 
+Z-5R Ext   
+  
+Ìx-3 MF-I
+  
+Ì-II MF-I
+  
+Matrix V 
+ 
+M-4 Keys
+ 
+M-3-COM
+ 
+HCS-301
+  
+Z-5R Wieg
+  
+RDR-GSM
+  
+
+
+
+List test modules for Stend-1 S/N:68
+ [01] -> SA-03    %5d  
+  Not found valid record
+ [02] -> M-II-Net %5d    
+  Current S/N = 19855
+  Minimum S/N = 19855
+  Maximum S/N = 20654
+  Pool prog   = 800
+  Ok   prog   = 0
+  Bad  prog   = 0
+ [03] ->M6-EH-Net %5d    
+  Not found valid record
+ [04] -> Z-5R Net %5d    
+  Current S/N = 58006
+  Minimum S/N = 56001
+  Maximum S/N = 58500
+  Pool prog   = 495
+  Ok   prog   = 5
+  Bad  prog   = 1
+ [05] -> Z5R 8000 %5d    
+  Current S/N = 32205
+  Minimum S/N = 32000
+  Maximum S/N = 32209
+  Pool prog   = 5
+  Ok   prog   = 205
+  Bad  prog   = 0
+ [06] -> Z-5R Ext %5d    
+  Not found valid record
+ [07] ->Z5R 16000 %5d    
+  Current S/N = 20619
+  Minimum S/N = 20410
+  Maximum S/N = 20619
+  Pool prog   = 1
+  Ok   prog   = 209
+  Bad  prog   = 14
+ [08] ->CPZ2-EHK (%05d)
+  Not found valid record
+ [09] ->Ìx-3 MF-I(%05d)
+  Not found valid record
+ [10] ->Ì-II MF-I(%05d)
+  Not found valid record
+ [11] -> Matrix V %5d  
+  Not found valid record
+ [12] ->M-4 Keys (%05d)
+  Not found valid record
+ [13] ->M-3-COM  (%05d)
+  Not found valid record
+ [14] ->HCS-301  (%05d)
+  Current S/N = 34203
+  Minimum S/N = 34000
+  Maximum S/N = 34219
+  Pool prog   = 17
+  Ok   prog   = 203
+  Bad  prog   = 81
+ [15] ->Z-5R Wg R(%05d)
+  Current S/N = 0
+  Minimum S/N = 1
+  Maximum S/N = 65535
+  Pool prog   = 845
+  Ok   prog   = 155
+  Bad  prog   = 108
+ [16] ->RDR-GSM  (%05d)
+  Not found valid record
+End

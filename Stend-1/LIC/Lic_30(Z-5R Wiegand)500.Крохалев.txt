@@ -1,0 +1,10 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Z-5R Wiegand
+Count=500
+Date=21.10.2020 9:15:56
+
+[Lic]
+Txt=?X/;92?HE^76:U"<"0EGQ^Y.,XY)M`:^`Q#[20^C%IGY\*E1AXN5GG@#2

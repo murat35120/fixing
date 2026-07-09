@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix IV Keys
+Count=1000
+Date=27.05.2015 17:35:15
+
+[Lic]
+Txt=?RRO`C=Z*:S^41K.?YC*1V!4;_POP3HV'(C!=_??TL#!NP2O$Y]9)4`!5

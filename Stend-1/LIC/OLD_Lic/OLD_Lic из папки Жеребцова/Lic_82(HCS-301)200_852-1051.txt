@@ -1,0 +1,13 @@
+[STEND]
+Number=82
+
+[PARAM]
+Name=HCS-301
+Count=200
+CurNum=852
+MinNum=852
+MaxNum=1051
+Date=27.09.2018 16:47:56
+
+[Lic]
+Txt=?@*LTJQ01VH`GI4%=\M>X='%4V%*'KIOEKMSDPEJS>]?YU@^N6K-[UP`Q

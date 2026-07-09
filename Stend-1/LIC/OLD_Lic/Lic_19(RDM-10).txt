@@ -1,0 +1,13 @@
+[STEND]
+Number=19
+
+[PARAM]
+Name=RDM-10
+Count=500
+CurNum=1201
+MinNum=1
+MaxNum=65535
+Date=03.08.2011 11:20:00
+
+[Lic]
+Txt=?IH.6F\E-7[)A9MQ)[%,95MR4T2U^E)@C^!AV8[O#%IOET@6JGJ)$3P!Z

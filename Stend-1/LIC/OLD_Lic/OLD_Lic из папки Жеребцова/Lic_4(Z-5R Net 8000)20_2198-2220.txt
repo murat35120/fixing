@@ -1,0 +1,13 @@
+[STEND]
+Number=4
+
+[PARAM]
+Name=Z-5R Net 8000
+Count=20
+CurNum=2197
+MinNum=2198
+MaxNum=2220
+Date=19.09.2018 11:22:07
+
+[Lic]
+Txt=?F4Q]>NBN\<#?CM;D=<&:/78/>:"X+E6ID;"1=!&^M%5P(Y&<'7UTY@`A

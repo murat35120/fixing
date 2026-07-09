@@ -1,0 +1,13 @@
+[STEND]
+Number=13
+
+[PARAM]
+Name=Matrix V
+Count=210
+CurNum=500
+MinNum=500
+MaxNum=710
+Date=18.09.2010 17:21:11
+
+[Lic]
+Txt=?#OT4X"GQ!AHS?"MWS"]FFG0)YY^GT-(FQX#/HYA*S4S4;UBPF$K-3`!*

@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix III MF-I
+Count=2000
+Date=05.02.2019 16:29:07
+
+[Lic]
+Txt=?UNRFS"N-4;7F;IOVT#U3-8</,00)(`REDV&1B.MGR_3RZYG-]<TR]P!]

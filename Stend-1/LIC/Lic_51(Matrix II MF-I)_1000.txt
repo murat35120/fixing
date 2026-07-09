@@ -1,0 +1,10 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=Matrix II MF-I
+Count=1000
+Date=21.07.2023 15:38:46
+
+[Lic]
+Txt=?@R"-D]K_.<?/(;PQ<[&+3]%I:(",C,9L+]H-*>YJ#SD>YE<)SRMG\@`(

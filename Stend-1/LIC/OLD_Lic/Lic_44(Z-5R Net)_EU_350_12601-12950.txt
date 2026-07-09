@@ -1,0 +1,13 @@
+[STEND]
+Number=44
+
+[PARAM]
+Name=Z-5R Net
+Count=350
+CurNum=12601
+MinNum=12600
+MaxNum=12950
+Date=05.10.2016 17:43:43
+
+[Lic]
+Txt=?WYA1&;7,4'X$)I9)MG1-\;W4ZZ+X;=D:B(DGQPX`(N)7Z\35SGE)(P`V

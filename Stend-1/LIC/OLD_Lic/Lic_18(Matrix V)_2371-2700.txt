@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix V
+Count=330
+CurNum=2371
+MinNum=2370
+MaxNum=3000
+Date=30.05.2013 18:16:00
+
+[Lic]
+Txt=?31C!&J&DN@&B]1%Q`V%6CMPO^UM/$:[`([S"`Z3*BXB<U9+K>7\3A0!5

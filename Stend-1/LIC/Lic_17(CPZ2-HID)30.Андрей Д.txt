@@ -1,0 +1,10 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=CPZ2-HID
+Count=30
+Date=02.12.2020 10:51:58
+
+[Lic]
+Txt=?J3YL53TCPF`;?3L<$B5XX8\QG"+34%6-]_VUU"6O+X^9%G@.*#.GU``@

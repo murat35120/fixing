@@ -1,0 +1,13 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix III COM
+Count=100
+CurNum=1201
+MinNum=1200
+MaxNum=1300
+Date=13.09.2013 16:26:21
+
+[Lic]
+Txt=?]#VV,N(.I?<UT/%OZ;[!`94JSZ;S9!E'GA)#)1IS?*1:_<V;6HWG=0!7

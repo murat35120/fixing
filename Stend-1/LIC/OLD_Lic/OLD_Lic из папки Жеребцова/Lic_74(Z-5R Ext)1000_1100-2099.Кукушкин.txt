@@ -1,0 +1,13 @@
+[STEND]
+Number=74
+
+[PARAM]
+Name=Z-5R Ext
+Count=1000
+CurNum=1100
+MinNum=1100
+MaxNum=2099
+Date=09.12.2019 18:00:35
+
+[Lic]
+Txt=?&O2)_J.E4_*=6-`ZH@""<-2[2LWU4)(DQU?I.K5.3ND^\X!AM4Y.Z0"*

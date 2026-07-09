@@ -1,0 +1,13 @@
+[STEND]
+Number=75
+
+[PARAM]
+Name=Matrix III Net
+Count=500
+CurNum=7601
+MinNum=7600
+MaxNum=8100
+Date=23.04.2018 17:54:02
+
+[Lic]
+Txt=?"U.L="QKX8SXWB:3Z[U/!L3N2?>VTO#:"-U641JWD_1H'1\9^-</'0#]

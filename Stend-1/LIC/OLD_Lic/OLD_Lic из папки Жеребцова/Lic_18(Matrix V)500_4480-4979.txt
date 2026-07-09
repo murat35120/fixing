@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix V
+Count=500
+CurNum=4480
+MinNum=4480
+MaxNum=4979
+Date=21.09.2018 15:17:43
+
+[Lic]
+Txt=?K-C`C,%'L-P#"SD!JVG7+!W&GGQW_O3>YE13WVXPDG#GH?1E;C"2<``W

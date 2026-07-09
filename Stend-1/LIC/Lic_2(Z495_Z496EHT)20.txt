@@ -1,0 +1,10 @@
+[STEND]
+Number=2
+
+[PARAM]
+Name=Z495_Z496EHT
+Count=20
+Date=22.06.2018 8:38:04
+
+[Lic]
+Txt=?0RCR)=?#^R0Z3)G&3;,>UB0'FLKEI;D*'4"V(]NBDY60)L)R5*[>8@!Z

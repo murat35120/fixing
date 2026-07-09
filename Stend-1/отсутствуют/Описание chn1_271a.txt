@@ -1,0 +1,33 @@
+ Upd_chn1_271a.rom
+
+ [01] ->  Matrix II    
+ [02] ->  Matrix II EH  
+ [03] ->  Matrix III EH 
+ [04] ->  PR-105      
+ [05] ->  ZR-5 (M-II-K+) 
+ [06] ->  Z-5000        
+ [07] ->  Z-5R          
+ [08] ->  Z-5R Relay    
+ [09] ->  Z8EHT
+ [10] ->  Z7EHT
+ [11] ->  Z8EH  PRG
+ [12] ->  CPZ2-M
+ [13] ->  CPZ2-MFI
+ [14] ->  SW-10 EH
+ [15] ->  SW-15 EH
+ [16] ->  SW-20 MFN
+ [17] ->  PLR3-M
+ [18] ->  Mtrx KeyM
+ [19] ->  MtrxMetal
+ [20] ->  Mtrx3 E+
+ [21] ->  Mtrx6 EH
+ [22] ->  Z9EHT
+ [23] ->  Z9EHT PRG
+ [24] ->  RDM-10
+ [25] ->  RDM-20
+ [26] ->  RDX-20
+ [27] ->  EUROLOCK 
+ [28] ->  Z-595
+ [29] ->  Z-595 iB
+ [30] ->  RDR-202
+ [31] ->  RDR-202 P

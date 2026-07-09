@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Z-5R Net 8000
+Count=1000
+CurNum=16201
+MinNum=16201
+MaxNum=17200
+Date=27.05.2015 17:37:58
+
+[Lic]
+Txt=?CWQTKSD^,&'Z0L-TS(?3YXBA,IWOL!,RS%50TK@M.K+=;Z+KN"TZL@"`

@@ -1,0 +1,10 @@
+[STEND]
+Number=16
+
+[PARAM]
+Name=PLR2-EH
+Count=500
+Date=20.10.2017 10:38:00
+
+[Lic]
+Txt=?-6-?4N$\3J19]?6Y821"50L%HOOD>'(/]W\S+E/W/4QPVG-6\3S?P@#8

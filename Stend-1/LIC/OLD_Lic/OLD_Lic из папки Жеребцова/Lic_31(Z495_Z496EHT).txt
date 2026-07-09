@@ -1,0 +1,13 @@
+[STEND]
+Number=31
+
+[PARAM]
+Name=Z495_Z496EHT
+Count=2000
+CurNum=8500
+MinNum=8500
+MaxNum=10999
+Date=18.10.2017 15:22:26
+
+[Lic]
+Txt=?KVAUJ2;L#?)A"Q[SKJ)L!Y*HRL2,S,!F,C)PP;,*MK+$$75JLPJVL@"8

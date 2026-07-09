@@ -1,0 +1,13 @@
+[STEND]
+Number=17
+
+[PARAM]
+Name=NEW-SLF
+Count=10
+CurNum=220
+MinNum=200
+MaxNum=230
+Date=20.08.2015 15:11:29
+
+[Lic]
+Txt=?\I(0T2/[7$5L&I4[#\X$M%23"?:D7OXU&PR%UM=K[1F5R+MAU7SC'0!8

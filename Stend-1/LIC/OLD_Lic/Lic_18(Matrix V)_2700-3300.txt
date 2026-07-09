@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix V
+Count=600
+CurNum=2700
+MinNum=1
+MaxNum=10000
+Date=28.04.2014 10:51:56
+
+[Lic]
+Txt=?D.J<LU5P($;]%[9Y=G+NSSBR]YM-^QMRY0E;2MFC[0)QQ6=P%,\36`!8

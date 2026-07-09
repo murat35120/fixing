@@ -1,0 +1,13 @@
+[STEND]
+Number=12
+
+[PARAM]
+Name=Matrix V
+Count=580
+CurNum=3920
+MinNum=3920
+MaxNum=4500
+Date=08.04.2015 10:11:37
+
+[Lic]
+Txt=?A8D%X<C";$=GJ+:P^\>VS#$F0XC-A^I9.5N2\XVVEDT*X#VKC;:630!]

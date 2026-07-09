@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix V
+Count=500
+CurNum=5875
+MinNum=5875
+MaxNum=6374
+Date=18.03.2020 14:18:10
+
+[Lic]
+Txt=?]?[8^O2^8D`G4;F'Z9A"O4NY7ZCYX$IKV.1'ZHU'.QF[1Q%%C4<[&0!-

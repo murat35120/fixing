@@ -1,0 +1,10 @@
+[STEND]
+Number=15
+
+[PARAM]
+Name=Z595 iB
+Count=1000
+Date=19.10.2017 13:28:54
+
+[Lic]
+Txt=?CBF;!"S-5XUV#@^KXI\[#$^(U8N:C(4@Q?T.+)@8;25+3F`_>33!@@`!

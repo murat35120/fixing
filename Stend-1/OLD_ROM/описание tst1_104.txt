@@ -1,0 +1,10 @@
+       TST - 1_104
+
+
+ [01] ->   Matrix II    
+ [02] ->  Matrix II EH  
+ [03] ->  Matrix III EH 
+ [04] ->    PR-105      
+ [05] -> ZR-5 (M-II-K+) 
+ [06] ->  Z5000  (Z5R)  
+ [07] -> Проверка TIMER 

@@ -1,0 +1,13 @@
+
+ [01] ->CPZ2-M   (%05d)
+ [02] ->CPZ2-MFI (%05d)
+ [03] ->CPZ2-HID (%05d)
+ [04] -> M-3-Net  %5d  
+ [05] -> RePRG M-3-Net
+ [06] -> M2-WiFi  %5d    
+ [07] ->   CH2EH (%05d)
+ [08] -> M-4-RF   %5d  
+ [09] -> M-4-RFNR %5d  
+ [10] ->M3 Rd-All(%05d)
+ [11] -> Z-5R Web %5d    
+  

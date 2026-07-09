@@ -1,0 +1,10 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Matrix II MF-I
+Count=2000
+Date=05.09.2019 9:21:58
+
+[Lic]
+Txt=?Y'Y_*!?<.8,ZS%;R^:1;`G5Z["`;Y2>+G`\2'=K69=L\U?L/6!8+_`!K

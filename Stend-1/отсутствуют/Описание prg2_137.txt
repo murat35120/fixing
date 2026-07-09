@@ -1,0 +1,27 @@
+    prg2_137.rom
+ 
+
+ [01] ->CPZ2-M
+ 
+ [02] ->CPZ2-MFI
+  
+ [03] ->CPZ2-EH
+  
+ [04] ->CPZ2-EHK
+  
+ [05] -> M-3-Net
+  
+ [06] -> RePRG M-3-Net  
+   
+ [07] -> M2-WiFi   
+  
+ [08] ->   CH2EH
+  
+ [09] -> M-4-RF
+  
+ [10] -> M-4-RFNR 
+  
+ [11] ->M3 Rd-All
+  
+ [12] -> Z-5R Web
+ 

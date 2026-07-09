@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix III Rd-All
+Count=2000
+CurNum=8901
+MinNum=5901
+MaxNum=10900
+Date=07.06.2017 17:51:44
+
+[Lic]
+Txt=?WB+]NIYN/:=IA2?#NZ2Q*?=%R[BK_SWN\:->_G>CCN(Q/IZ0X;Y1#@"0

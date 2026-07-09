@@ -1,0 +1,10 @@
+List test modules for Stend-1 S/N:1
+ [Bad  prog   = 0
+ [02] ->   CH2EH (%05d)
+  Current S/N = 0
+  Minimum S/N = 1
+  Maximum S/N = 300
+  Pool prog   = 0
+  Ok   prog   = 520
+  Bad  prog   = 193
+End

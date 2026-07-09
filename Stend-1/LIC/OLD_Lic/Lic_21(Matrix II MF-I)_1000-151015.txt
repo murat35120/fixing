@@ -1,0 +1,10 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II MF-I
+Count=1000
+Date=15.10.2015 15:56:47
+
+[Lic]
+Txt=?00=C8(K;M+(W7F]SQ9:\2U&ZIZ$.SX0H";S9F/O^FVF(@`+2T''=3P"<

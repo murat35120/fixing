@@ -16,21 +16,21 @@ dlh=10;
 plt=42;
 step=5;
 pin=[9, step*7+1.5, 12];
-botr=8;
-prk=[20,15,pin.z*2];
+botr=9+ts;
+prk=[20,15,pin.z*3];
 
 all();
 module all(){
     difference(){
         union(){
             translate([0,0,ts/2])cube(pole,true);
-            translate([plt/2-pin.x+ts/2+0.1,0,ts+botr/2])cube([pin.x+ts,pin.y-ts,botr],true);
+            translate([plt/2-pin.x+ts/2+0.1,0,botr/2])cube([pin.x+ts,pin.y-ts,botr],true);
             translate([pole.x/2,0,3*ts/2])cube([3*ts,pole.y, 3*ts],true);
             translate([-pole.x/2,0,3*ts/2])cube([3*ts,pole.y, 3*ts],true);
-            translate([plt/2-pin.x-pin.x/2-step/2+0.1,-(-step+ts/2),4*ts/2])cube([step, ts,4*ts],true);
-            translate([plt/2-pin.x-pin.x/2-step/2+0.1,-step*3,4*ts/2])cube([step, ts,4*ts],true);
-            translate([plt/2-pin.x-pin.x/2-step*3,-step*3,4*ts/2])cube([step, ts,4*ts],true);
-            translate([plt/2-pin.x-pin.x/2-step*3,2.5*step,4*ts/2])cube([step, ts,4*ts],true);
+            translate([plt/2-pin.x-pin.x/2-step/2+0.1,-(-step+ts/2),botr/2])cube([step, ts,botr],true);
+            translate([plt/2-pin.x-pin.x/2-step/2+0.1,-step*3,botr/2])cube([step, ts,botr],true);
+            translate([plt/2-pin.x-pin.x/2-step*3,-step*3,botr/2])cube([step, ts,botr],true);
+            translate([plt/2-pin.x-pin.x/2-step*3,2.5*step,botr/2])cube([step, ts,botr],true);
         }
         translate([pole.x/2,0,3*ts/2])cube([stl.x*2+ts,ts+0.6, 4*ts],true);
         translate([-pole.x/2,0,3*ts/2])cube([stl.x*2+ts,ts+0.6, 4*ts],true);
@@ -39,8 +39,8 @@ module all(){
         translate([plt/2-pin.x,0,ts+pin.z/2])cube(pin,true);
         translate([plt/2-pin.x,2.5*step,0])cube(prk,true);//отверстие для прищепки
     }
-    translate([plt/2-pin.x,-pin.y/2-step/2,4*ts/2])cube([ts,step, 4*ts],true);
-    translate([plt/2-pin.x,pin.y/2+step/2,4*ts/2])cube([ts,step, 4*ts],true);
+    translate([plt/2-pin.x,-pin.y/2-step/2+step/4,botr/2])cube([ts,step/2, botr],true);
+    translate([plt/2-pin.x,pin.y/2+step/2,botr/2])cube([ts,step, botr],true);
 }
 
 //test00();

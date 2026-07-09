@@ -1,0 +1,13 @@
+[STEND]
+Number=21
+
+[PARAM]
+Name=Matrix II Net
+Count=500
+CurNum=29001
+MinNum=28200
+MaxNum=29500
+Date=13.03.2015 19:02:19
+
+[Lic]
+Txt=?`)"%R-\.P"6,MWHDSLZ5U5G<U74,A-[:Q_-T<&=XV2T0W9K3)%$7Y@";

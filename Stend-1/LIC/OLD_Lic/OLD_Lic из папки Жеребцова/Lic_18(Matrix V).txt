@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix V
+Count=10
+CurNum=3920
+MinNum=3920
+MaxNum=4500
+Date=26.09.2017 15:34:44
+
+[Lic]
+Txt=?!.+]WYG('-ADDI2'D.!T+GR!&"XZ"(S)Q)KEMX\UF_3?%A>YCS6;]`!'

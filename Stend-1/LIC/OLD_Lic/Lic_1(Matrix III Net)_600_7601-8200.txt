@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Matrix III Net
+Count=600
+CurNum=7601
+MinNum=7600
+MaxNum=8200
+Date=07.12.2017 12:53:08
+
+[Lic]
+Txt=?7^X!N2%]T[!><`^4R4-M/2HKBS'.)Y^04F4,OJE%_H7T.<+O,(6Z0`#+

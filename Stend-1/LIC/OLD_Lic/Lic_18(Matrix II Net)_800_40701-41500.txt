@@ -1,0 +1,13 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix II Net
+Count=800
+CurNum=40701
+MinNum=39200
+MaxNum=41500
+Date=21.03.2016 12:51:22
+
+[Lic]
+Txt=?RHZZ)EV_PPT)).\V:8&.@T?0H%F$UL\\?Z+>_%XS:U6':&YNS$10!P#'

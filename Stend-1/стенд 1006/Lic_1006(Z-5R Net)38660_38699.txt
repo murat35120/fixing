@@ -1,0 +1,13 @@
+[STEND]
+Number=1006
+
+[PARAM]
+Name=Z-5R Net
+Count=40
+CurNum=38660
+MinNum=38660
+MaxNum=38699
+Date=17.06.2026 10:55:51
+
+[Lic]
+Txt=?/)^KUSL?B;&V\0_5=G\`*W6=X\U?(6ER-JH9_//]^ROEJ;.1\_W[*P",

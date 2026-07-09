@@ -1,0 +1,13 @@
+[STEND]
+Number=1
+
+[PARAM]
+Name=Z-5R Web
+Count=1000
+CurNum=41701
+MinNum=41200
+MaxNum=42700
+Date=23.05.2016 9:59:07
+
+[Lic]
+Txt=?XL%V*AYHZC$$V%B-)A(%IJC1;JSFH#>3F`=9+F&!^DT/&I1.!%J@N@"Z

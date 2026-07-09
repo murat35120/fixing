@@ -1,0 +1,13 @@
+[STEND]
+Number=30
+
+[PARAM]
+Name=Matrix II MF-I
+Count=2000
+CurNum=54901
+MinNum=54901
+MaxNum=55900
+Date=12.02.2019 9:38:39
+
+[Lic]
+Txt=?.Z9^#FZ.1Z0;PU`N[O!,)%L&$C?#M120LFD-PWYNDN?X8$"^?FZ2YP";

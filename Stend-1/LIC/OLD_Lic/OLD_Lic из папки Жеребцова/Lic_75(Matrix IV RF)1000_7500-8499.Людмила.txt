@@ -1,0 +1,13 @@
+[STEND]
+Number=75
+
+[PARAM]
+Name=Matrix IV RF
+Count=1000
+CurNum=7500
+MinNum=7500
+MaxNum=8499
+Date=14.10.2019 12:55:44
+
+[Lic]
+Txt=?E.JMD/_6PGAF)"3&#X34^?9/DAQOOJR6"0OOE0DGE'B@`YP="2>4>`"+

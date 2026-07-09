@@ -1,0 +1,10 @@
+[STEND]
+Number=18
+
+[PARAM]
+Name=Matrix III MF-I
+Count=1000
+Date=27.05.2015 17:35:26
+
+[Lic]
+Txt=?3VA-9[UJ2<[27.1NC]6U-D7.`>=J'06F%MZR"!P*[5F(>_4ZR'O-R`#5

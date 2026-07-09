@@ -1,0 +1,13 @@
+[STEND]
+Number=51
+
+[PARAM]
+Name=Matrix II WiFi
+Count=500
+CurNum=50492
+MinNum=50100
+MaxNum=50892
+Date=01.03.2018 13:06:14
+
+[Lic]
+Txt=?Y\@B;N1?W^LQ'?\+707C::Z&S8-(O5-GX]`]2)5$]5Y'W)MNP!!Q"P"Z
