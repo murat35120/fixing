@@ -17,8 +17,8 @@ use <threads-library-by-cuiso-v1.scad>
 //EXAMPLE, a nut with 0.1 extra clearance:
 
 difference(){
-    cylinder(d=30, h=6, $fn = 6); 
-    translate([0,0,-1])thread_for_screw_fullparm(diameter=21, length=8, pitch=1, divs=60);
+    cylinder(d=25, h=9, $fn = 6); 
+    translate([0,0,-1])thread_for_screw_fullparm(diameter=16.5, length=12, pitch=1, divs=60);
 }
 
 //EXAMPLE, a cube with two treads:
