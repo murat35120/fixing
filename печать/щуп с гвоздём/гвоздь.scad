@@ -3,7 +3,7 @@ ts=1.5;
 
 lenta=[10+0.5,60,3];//размер ячейкм
 ddd=0.25;
-gzd=[1.4+ddd,2.5+ddd];
+gzd=[1.8+ddd,2.5+ddd];
 hv=20;
 hr=ts*2+lenta.z;
 ln=8;
